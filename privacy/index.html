@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>隐私与统计 · Owlcarp</title>
+  <meta name="description" content="本站访问统计的范围、数据处理方式，以及关闭统计的选项。"><link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/svg+xml" href="/favicon-light.svg" data-site-icon><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="canonical" href="https://gvd20.github.io/privacy/"><script>document.documentElement.dataset.imagePlaceholder=(function choosePlaceholder({ userAgent = "", saveData = false, deviceMemory, supportsFilter = true } = {}) {
+  const webkit = /AppleWebKit/i.test(userAgent) && !/(Chrome|Chromium|Edg|OPR|SamsungBrowser)/i.test(userAgent);
+  const lowMemory = typeof deviceMemory === "number" && deviceMemory > 0 && deviceMemory <= 2;
+  return webkit || saveData || lowMemory || !supportsFilter ? "plain" : "lqip";
+})({userAgent:navigator.userAgent,saveData:navigator.connection?.saveData===true,deviceMemory:navigator.deviceMemory,supportsFilter:typeof CSS!=='undefined'&&CSS.supports('filter','blur(1px)')});</script><style>.skip-link:not(:focus){position:absolute;clip-path:inset(50%);width:1px;height:1px;overflow:hidden}.nav-frame,.nav-arrow{opacity:0}.brand-wordmark[data-outline-ready]>.brand-fallback{display:none}dialog:not([open]),[hidden]{display:none!important}</style><noscript><style>.image-placeholder>span{background-image:none!important;filter:none!important;inset:0!important;background:#f3f3f3}</style></noscript>  <script type="module" crossorigin src="/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
+  <script type="module" crossorigin src="/assets/site-runtime-DN2Ag9SK.js"></script>
+  <script type="module" crossorigin src="/assets/favicon-RpiOqubk.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/site-runtime-Bwxkcl9H.css">
+  <link rel="stylesheet" crossorigin href="/assets/privacy-CebCQ3BT.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">跳到主要内容</a>
+  <header><a class="brand-wordmark" href="/" aria-label="Owlcarp 首页" data-outline-ready><span class="brand-fallback">Owlcarp.</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="34 -936.0 3123 1202.0" class="brand-outline" aria-hidden="true" focusable="false"><g transform="scale(1 -1)"><g class="name-owl" fill="currentColor"><path transform="translate(0 0)" d="M376 -10C563 -10 713 145 713 338C713 525 561 680 376 680C191 680 39 525 39 338C39 145 189 -10 376 -10ZM376 4C229 4 145 126 145 338C145 539 234 666 376 666C518 666 607 539 607 338C607 126 523 4 376 4Z"/><path transform="translate(744 0)" d="M437 -4C442 -4 444 -2 447 6L565 332C579 371 589 389 638 390V400H503V390C548 390 566 377 551 336L462 89L372 336C358 376 375 390 424 390V400H252V390C280 389 292 371 306 332L307 328L219 88L129 336C115 376 132 390 171 390V400H-10V390C37 389 49 371 63 332L183 6C186 -1 188 -4 194 -4C199 -4 201 -2 204 6L315 307L426 6C429 -1 431 -4 437 -4Z"/><path transform="translate(1331 0)" d="M12 -1C84 0 138 0 210 -1V10L191 11C153 13 145 37 145 89V620V692H143L6 670V659C49 662 77 646 77 598V89C77 37 69 13 31 11L12 10Z"/></g><g class="name-carp" fill="currentColor"><path transform="translate(1515 0)" d="M226 -10C296 -10 350 22 378 78L366 84C346 46 305 23 253 23C180 23 109 82 109 214C109 319 149 398 236 398C262 398 286 390 301 376C325 353 314 309 348 309C364 309 374 321 374 338C374 377 306 410 238 410C127 410 34 318 34 192C34 64 129 -10 226 -10Z"/><path transform="translate(1885 0)" d="M126 -10C176 -10 225 14 271 55C277 11 306 -9 347 -9C384 -9 408 5 428 36L420 41C411 28 399 20 383 20C353 20 336 42 337 106L341 297C342 372 295 410 194 410C108 410 52 375 52 333C52 318 61 308 76 308C113 308 92 348 122 376C136 389 161 398 190 398C253 398 274 374 273 317L272 245C229 225 192 207 147 185C73 149 42 112 42 67C42 19 76 -10 126 -10ZM105 88C105 129 134 159 180 184C211 201 240 216 272 232L269 68C238 39 206 20 174 20C135 20 105 48 105 88Z"/><path transform="translate(2277 0)" d="M18 -1C90 0 144 0 216 -1V10L197 11C159 13 151 37 151 89V306C160 342 196 386 234 386C274 386 270 346 298 346C311 346 319 355 319 369C319 392 299 408 264 408C209 408 164 370 145 327L134 408H132L15 376L16 366C77 369 83 346 83 282V89C83 37 75 13 37 11L18 10Z"/><path transform="translate(2563 0)" d="M11 -261C83 -260 137 -260 209 -261V-250L190 -249C152 -247 144 -223 144 -171V29C180 3 219 -10 269 -10C384 -10 476 85 476 202C476 321 395 410 276 410C219 410 167 384 135 346L127 408H125L8 376L9 366C70 369 76 346 76 282V-171C76 -223 68 -247 30 -249L11 -250ZM253 6C205 6 144 32 144 102V304C153 346 204 394 258 394C344 394 400 318 400 202C400 83 342 6 253 6Z"/></g><g class="period" fill="#3F68ED"><path transform="translate(3010 0)" d="M94 -12C122 -12 142 9 142 36C142 63 121 84 94 84C68 84 46 63 46 36C46 9 67 -12 94 -12Z"/></g></g></svg></a></header>
+  <main id="content">
+    <h1>隐私与统计</h1>
+    <p class="privacy-date">更新于 2026 年 10 月 14 日</p>
+    <p>我希望了解哪些内容更受欢迎、哪些交互真正被使用，从而不断改进这个网站。为此，Owlcarp 使用 Umami 进行轻量的访问统计来了解站点的使用情况。</p>
+    <p>统计不会影响你的浏览体验，你可以随时选择是否参与。</p>
+    <div class="privacy-choice">
+      <div class="privacy-switch-group"><button type="button" role="switch" aria-checked="false" aria-label="访问统计" class="privacy-switch" data-analytics-toggle hidden><span></span></button><span data-analytics-label>启用访问统计</span></div>
+      <p data-analytics-status role="status" aria-live="polite">统计状态需要 JavaScript 才能显示。</p>
+      <button type="button" class="privacy-reset" data-analytics-reset hidden>恢复默认</button>
+    </div>
+    <p data-storage-status></p>
+    <noscript><p>JavaScript 已关闭，访问统计不会运行。</p></noscript>
+    <section><h2>你的选择</h2>
+      <p>我们尊重你的选择，包括浏览器「请勿跟踪」设置。你可以在这里查看当前的统计状态，随时开启或关闭访问统计。关闭后，网站将停止记录新的访问与交互事件，所有功能仍可正常使用。</p>
+      <p>默认跟随浏览器偏好；你在本站主动开启或关闭后，以你的选择为准。「恢复默认」会清除本站偏好，重新跟随浏览器设置。</p>
+      <p>你的选择保存在当前浏览器中，仅适用于当前域名。如果清除了浏览器数据或更换设备，可能需要重新设置。</p>
+    </section>
+    <section><h2>关于统计数据</h2>
+      <p>统计主要包括页面浏览，以及图片预览、视频播放、演示切换和链接点击等主动操作。我们还会收集访问来源、浏览器语言、屏幕尺寸等基本信息，以了解网站的使用情况。</p>
+      <p>这些统计仅用于了解整体访问与使用情况，不包含与你关联的任何信息。本站不记录你的输入内容、鼠标轨迹或点击位置，也不用于广告投放、跨网站追踪或识别个人身份。访问记录不包含网址中的查询参数，来源信息仅保留网站域名。</p>
+      <p>本站使用 <a href="https://umami.is/">Umami Cloud</a> 提供统计服务。统计数据保留六个月。</p>
+      <p>Umami 不使用跟踪 Cookie。统计过程中可能处理 IP 地址等必要的技术信息，但原始 IP 地址不会保存在统计数据库中。本站也不会额外创建用于识别个人的标识。</p>
+      <p>网站托管服务商可能另行处理保障网站运行和安全所必需的访问日志。</p>
+    </section>
+    <p>如果你对隐私或数据处理有任何疑问，欢迎通过 <a href="mailto:ocp2100@gmail.com">ocp2100@gmail.com</a> 联系我。你也可以阅读 <a href="https://umami.is/privacy">Umami 的隐私说明</a>。</p>
+    <a class="back" href="/">← 返回项目</a>
+  </main>
+  <footer class="site-footer home-footer"><small class="site-credit">© 2026 Owlcarp</small><nav class="site-footer-links" aria-label="作者与站点链接"><a href="/?page=about">关于我</a><a href="https://github.com/GVD20" target="_blank" rel="noopener noreferrer">GitHub</a><a href="mailto:ocp2100@gmail.com">联系我</a><a href="/sitemap/">网站地图</a><a href="/privacy/">隐私与统计</a></nav><div class="site-build"><span>GitHub Pages · gvd20.github.io · 6bdd6a8 · <time datetime="2026-10-14T14:03:39.786451+00:00">2026-10-14 22:03 UTC+8</time></span><details><summary>构建详情</summary><dl><dt>配置</dt><dd>github-pages</dd><dt>地址</dt><dd>https://gvd20.github.io</dd><dt>提交</dt><dd>6bdd6a8c9a4e763474f0824181dc555041110b2b</dd><dt>统计</dt><dd>Umami Cloud 直连</dd></dl></details></div></footer>
+</body>
+</html>

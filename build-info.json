@@ -1,6 +1,8 @@
 {
+  "profile": "github-pages",
   "origin": "https://gvd20.github.io",
-  "target": "github-pages",
-  "sourceCommit": "26ab2c732f5ecaef5324067ca51fa8a7b0104f3c",
-  "builtAt": "20261014-162110"
+  "platform": "GitHub Pages",
+  "analytics": "direct",
+  "sourceCommit": "6bdd6a8c9a4e763474f0824181dc555041110b2b",
+  "builtAt": "2026-10-14T14:03:39.786451+00:00"
 }

@@ -4,11 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#ffffff" />
+  <link rel="preload" href="/models/BK_Dollhouse_2-low.glb" as="fetch" type="model/gltf-binary" crossorigin fetchpriority="high" />
+  <link rel="preload" href="/models/booktree-low.glb" as="fetch" type="model/gltf-binary" crossorigin fetchpriority="high" />
+  <link rel="preload" href="/models/cctrl1_3-low.glb" as="fetch" type="model/gltf-binary" crossorigin fetchpriority="high" />
   <link rel="preload" href="/fonts/owlcarp-serif-sc.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/fonts/owlcarp-sans-sc.woff2" as="font" type="font/woff2" crossorigin />
   <meta name="description" content="Owlcarp — 在这里记录自己、生活和有意思的项目。" />
-  <title>Owlcarp</title>
-<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/svg+xml" href="/favicon-light.svg" data-site-icon><link rel="apple-touch-icon" href="/apple-touch-icon.png">  <meta name="author" content="Owlcarp">
+  <title>Owlcarp</title><link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/svg+xml" href="/favicon-light.svg" data-site-icon><link rel="apple-touch-icon" href="/apple-touch-icon.png">  <meta name="author" content="Owlcarp">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="keywords" content="Owlcarp, 猫头鱼, 个人网站, 项目作品集, BK_STATION, UnderStory, CCtrl">
   <link rel="canonical" href="https://gvd20.github.io/">
@@ -36,14 +38,15 @@
   const webkit = /AppleWebKit/i.test(userAgent) && !/(Chrome|Chromium|Edg|OPR|SamsungBrowser)/i.test(userAgent);
   const lowMemory = typeof deviceMemory === "number" && deviceMemory > 0 && deviceMemory <= 2;
   return webkit || saveData || lowMemory || !supportsFilter ? "plain" : "lqip";
-})({userAgent:navigator.userAgent,saveData:navigator.connection?.saveData===true,deviceMemory:navigator.deviceMemory,supportsFilter:typeof CSS!=='undefined'&&CSS.supports('filter','blur(1px)')});</script><style>.skip-link:not(:focus){position:absolute;clip-path:inset(50%);width:1px;height:1px;overflow:hidden}.nav-frame,.nav-arrow{opacity:0}.brand-wordmark[data-outline-ready]>.brand-fallback{display:none}dialog:not([open]),[hidden]{display:none!important}</style><noscript><style>.image-placeholder>span{background-image:none!important;filter:none!important;inset:0!important;background:#f3f3f3}</style></noscript>  <script type="module" crossorigin src="/assets/homepage-DsT4sJnt.js"></script>
+})({userAgent:navigator.userAgent,saveData:navigator.connection?.saveData===true,deviceMemory:navigator.deviceMemory,supportsFilter:typeof CSS!=='undefined'&&CSS.supports('filter','blur(1px)')});</script><style>.skip-link:not(:focus){position:absolute;clip-path:inset(50%);width:1px;height:1px;overflow:hidden}.nav-frame,.nav-arrow{opacity:0}.brand-wordmark[data-outline-ready]>.brand-fallback{display:none}dialog:not([open]),[hidden]{display:none!important}</style><noscript><style>.image-placeholder>span{background-image:none!important;filter:none!important;inset:0!important;background:#f3f3f3}</style></noscript>  <script type="module" crossorigin src="/assets/homepage-CMhPQ30T.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="modulepreload" crossorigin href="/assets/site-runtime-DN2Ag9SK.js">
   <link rel="modulepreload" crossorigin href="/assets/favicon-RpiOqubk.js">
-  <link rel="modulepreload" crossorigin href="/assets/load-visible-DWYD8fvM.js">
-  <link rel="modulepreload" crossorigin href="/assets/mascot-qzLJXiqW.js">
-  <link rel="stylesheet" crossorigin href="/assets/mascot-D64veSFX.css">
+  <link rel="modulepreload" crossorigin href="/assets/load-visible-D-GePXtX.js">
+  <link rel="modulepreload" crossorigin href="/assets/mascot-wZqza-tB.js">
+  <link rel="stylesheet" crossorigin href="/assets/site-runtime-Bwxkcl9H.css">
+  <link rel="stylesheet" crossorigin href="/assets/mascot-BNndnQQN.css">
   <link rel="stylesheet" crossorigin href="/assets/homepage-D9rTjVEu.css">
-  <link rel="stylesheet" crossorigin href="/assets/fonts-BSmYD9wY.css">
 </head>
 <body class="home-page">
   <a class="skip-link" href="#main-content">跳到主要内容</a>
@@ -107,7 +110,7 @@
         </div>
       </section>
     </main>
-    <footer class="site-footer home-footer"><small class="site-credit">© 2026 Owlcarp</small><nav class="site-footer-links" aria-label="作者与站点链接"><a href="/?page=about">关于我</a><a href="https://github.com/GVD20" target="_blank" rel="noopener noreferrer">GitHub</a><a href="mailto:ocp2100@gmail.com">联系我</a><a href="/sitemap/">网站地图</a></nav></footer>
+    <footer class="site-footer home-footer"><small class="site-credit">© 2026 Owlcarp</small><nav class="site-footer-links" aria-label="作者与站点链接"><a href="/?page=about">关于我</a><a href="https://github.com/GVD20" target="_blank" rel="noopener noreferrer">GitHub</a><a href="mailto:ocp2100@gmail.com">联系我</a><a href="/sitemap/">网站地图</a><a href="/privacy/">隐私与统计</a></nav><div class="site-build"><span>GitHub Pages · gvd20.github.io · 6bdd6a8 · <time datetime="2026-10-14T14:03:39.786451+00:00">2026-10-14 22:03 UTC+8</time></span><details><summary>构建详情</summary><dl><dt>配置</dt><dd>github-pages</dd><dt>地址</dt><dd>https://gvd20.github.io</dd><dt>提交</dt><dd>6bdd6a8c9a4e763474f0824181dc555041110b2b</dd><dt>统计</dt><dd>Umami Cloud 直连</dd></dl></details></div></footer>
   </div>
 </body>
 </html>
