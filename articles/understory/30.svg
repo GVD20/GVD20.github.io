@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1200" viewBox="0 0 1920 1200" role="img" aria-labelledby="title desc">
+  <title id="title">V2 卷报告 Agent 与公共要点表的增量协作</title>
+  <desc id="desc">两个串行卷报告 Agent 依次处理第一卷和第二卷，通过公共要点表增量维护人物、地点和组织信息。下一卷默认只取得紧凑索引，只主动读取重新出现要点的历史。</desc>
+  <defs>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#4896a8"/>
+    </marker>
+    <marker id="arrowPurple" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#826c98"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#3b4d52" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .bg { fill:#f9f6ef; }
+      .ink { fill:#26383d; }
+      .muted { fill:#66777a; }
+      .blue { fill:#4896a8; }
+      .purple { fill:#826c98; }
+      .card { fill:#fffdf8; stroke:#d8d5cc; stroke-width:2; filter:url(#shadow); }
+      .soft-blue { fill:#e6f1f2; stroke:#4896a8; stroke-width:2; }
+      .soft-purple { fill:#eee8f0; stroke:#826c98; stroke-width:2; }
+      .tag { fill:#f2eee4; stroke:#d8d0c1; stroke-width:1.5; }
+      .title { font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif; font-size:42px; font-weight:700; }
+      .subtitle { font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif; font-size:22px; font-weight:400; }
+      .h2 { font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif; font-size:28px; font-weight:700; }
+      .h3 { font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif; font-size:22px; font-weight:700; }
+      .body { font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif; font-size:19px; font-weight:400; }
+      .small { font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif; font-size:16px; font-weight:400; }
+      .mono { font-family:"Cascadia Mono","Microsoft YaHei",monospace; font-size:16px; }
+      .white { fill:#ffffff; }
+      .line-blue { fill:none; stroke:#4896a8; stroke-width:4; marker-end:url(#arrowBlue); }
+      .line-purple { fill:none; stroke:#826c98; stroke-width:4; marker-end:url(#arrowPurple); }
+      .dash { stroke-dasharray:9 8; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1920" height="1200"/>
+  <circle cx="1780" cy="90" r="180" fill="#4896a8" opacity="0.07"/>
+  <circle cx="1700" cy="1160" r="240" fill="#826c98" opacity="0.06"/>
+
+  <text x="70" y="74" class="title ink">两个卷 Agent，如何共同维护一张“公共要点表”</text>
+  <text x="70" y="112" class="subtitle muted">简化示例：信息按卷增量积累；下一卷只在角色、地点或组织重新出现时，主动读取它的历史。</text>
+
+  <!-- Architecture boundary -->
+  <rect x="70" y="145" width="1780" height="105" rx="24" class="card"/>
+  <rect x="94" y="169" width="172" height="56" rx="28" class="blue"/>
+  <text x="180" y="205" class="h3 white" text-anchor="middle">V2 → 当前版</text>
+  <text x="300" y="190" class="h3 ink">V2：每卷只有 1 个卷报告 Agent；当前版：新增公共要点表</text>
+  <text x="300" y="220" class="body muted">保持按卷串行：卷 1 完成后，卷 2 才读取最新的共享状态。</text>
+  <g opacity="0.72">
+    <rect x="1370" y="166" width="210" height="62" rx="16" fill="#f3eee9" stroke="#b9aaa3" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="1475" y="191" class="small muted" text-anchor="middle">章报告 Worker</text>
+    <text x="1475" y="216" class="h3 muted" text-anchor="middle">不存在</text>
+    <line x1="1394" y1="174" x2="1556" y2="221" stroke="#a76c6c" stroke-width="5"/>
+  </g>
+  <text x="1608" y="192" class="small muted">不是“每章分析一次”</text>
+  <text x="1608" y="218" class="small muted">而是“整卷读取一次”</text>
+
+  <!-- Left: volume 1 -->
+  <rect x="70" y="300" width="420" height="790" rx="28" class="card"/>
+  <rect x="70" y="300" width="420" height="78" rx="28" class="blue"/>
+  <rect x="70" y="350" width="420" height="28" class="blue"/>
+  <circle cx="112" cy="339" r="24" fill="#fff" opacity="0.95"/>
+  <text x="112" y="347" class="h3 blue" text-anchor="middle">1</text>
+  <text x="152" y="349" class="h2 white">卷 1：首次建立要点</text>
+
+  <rect x="98" y="406" width="364" height="112" rx="18" class="soft-blue"/>
+  <text x="122" y="438" class="h3 ink">卷 1 原文</text>
+  <text x="122" y="469" class="body ink">利姆路在封印洞窟转生，</text>
+  <text x="122" y="496" class="body ink">遇见维尔德拉，并帮助哥布林村。</text>
+
+  <path d="M280 523 L280 566" class="line-blue"/>
+  <rect x="98" y="570" width="364" height="164" rx="22" fill="#4896a8"/>
+  <text x="280" y="611" class="h2 white" text-anchor="middle">卷 1 报告 Agent</text>
+  <text x="122" y="650" class="body white">读取：本卷完整原文</text>
+  <text x="122" y="680" class="body white">判断：哪些事实值得跨卷记忆</text>
+  <text x="122" y="710" class="body white">输出：卷总结 + 结构化要点</text>
+
+  <text x="104" y="780" class="h3 ink">本卷拆出的原子化信息</text>
+  <rect x="98" y="802" width="364" height="58" rx="14" class="tag"/>
+  <text x="116" y="827" class="small purple">人物 · 利姆路</text>
+  <text x="116" y="851" class="small ink">与维尔德拉结盟并获得名字</text>
+  <rect x="98" y="872" width="364" height="58" rx="14" class="tag"/>
+  <text x="116" y="897" class="small purple">人物 · 维尔德拉</text>
+  <text x="116" y="921" class="small ink">被收入胃袋，等待解析封印</text>
+  <rect x="98" y="942" width="364" height="58" rx="14" class="tag"/>
+  <text x="116" y="967" class="small purple">地点/组织 · 哥布林村</text>
+  <text x="116" y="991" class="small ink">获得利姆路援助，开始重建</text>
+
+  <rect x="98" y="1023" width="364" height="43" rx="14" fill="#e6f1f2"/>
+  <text x="280" y="1051" class="small blue" text-anchor="middle">批量 create / append → 公共要点表</text>
+
+  <!-- Center: shared table -->
+  <rect x="560" y="300" width="800" height="790" rx="28" class="card"/>
+  <rect x="560" y="300" width="800" height="78" rx="28" class="purple"/>
+  <rect x="560" y="350" width="800" height="28" class="purple"/>
+  <text x="960" y="349" class="h2 white" text-anchor="middle">公共要点表：跨卷共享的结构化记忆</text>
+
+  <text x="598" y="421" class="h3 ink">卷 1 完成后的表</text>
+  <rect x="596" y="444" width="728" height="228" rx="18" fill="#faf8f3" stroke="#d7cddd" stroke-width="2"/>
+  <rect x="596" y="444" width="728" height="44" rx="18" fill="#eee8f0"/>
+  <rect x="596" y="472" width="728" height="16" fill="#eee8f0"/>
+  <text x="616" y="473" class="small purple">ID / 类型 / 正式名</text>
+  <text x="855" y="473" class="small purple">按卷追加的历史</text>
+  <line x1="830" y1="444" x2="830" y2="672" stroke="#d7cddd" stroke-width="2"/>
+  <line x1="596" y1="548" x2="1324" y2="548" stroke="#dedbd3"/>
+  <line x1="596" y1="610" x2="1324" y2="610" stroke="#dedbd3"/>
+  <text x="616" y="523" class="mono ink">@A1 人物 利姆路</text>
+  <text x="850" y="515" class="small ink">V1 · 与维尔德拉结盟；帮助哥布林村</text>
+  <text x="850" y="539" class="small muted">证据：lr://…/v01/…</text>
+  <text x="616" y="586" class="mono ink">@A2 人物 维尔德拉</text>
+  <text x="850" y="578" class="small ink">V1 · 被收入胃袋，等待解除封印</text>
+  <text x="850" y="602" class="small muted">证据：lr://…/v01/…</text>
+  <text x="616" y="648" class="mono ink">@A3 组织 哥布林村</text>
+  <text x="850" y="640" class="small ink">V1 · 获得援助，村落开始重建</text>
+  <text x="850" y="664" class="small muted">证据：lr://…/v01/…</text>
+
+  <rect x="596" y="706" width="728" height="102" rx="18" class="soft-purple"/>
+  <text x="620" y="741" class="h3 ink">给下一卷的默认输入：只有紧凑索引</text>
+  <text x="620" y="772" class="mono ink">@A1 | 人物 | 利姆路　 @A2 | 人物 | 维尔德拉</text>
+  <text x="620" y="797" class="mono ink">@A3 | 组织 | 哥布林村　 ……不附带历史全文</text>
+
+  <text x="598" y="856" class="h3 ink">卷 2 写入后：同一行继续追加，而不是重写全传</text>
+  <rect x="596" y="878" width="728" height="174" rx="18" fill="#faf8f3" stroke="#bcd8dd" stroke-width="2"/>
+  <rect x="612" y="895" width="696" height="62" rx="12" fill="#e6f1f2"/>
+  <text x="628" y="920" class="mono ink">@A1 利姆路</text>
+  <text x="810" y="920" class="small muted">V1 · 结盟 / 援助村落</text>
+  <text x="810" y="946" class="small blue">＋ V2 · 接纳大鬼族，城镇战力增强</text>
+  <rect x="612" y="969" width="696" height="62" rx="12" fill="#eee8f0"/>
+  <text x="628" y="994" class="mono ink">@B1 大鬼族</text>
+  <text x="810" y="994" class="small purple">NEW · V2 首次出现，创建新要点</text>
+  <text x="810" y="1020" class="small muted">以后再次出现时，才会按 ID 调取这段历史</text>
+
+  <!-- Right: volume 2 -->
+  <rect x="1430" y="300" width="420" height="790" rx="28" class="card"/>
+  <rect x="1430" y="300" width="420" height="78" rx="28" class="purple"/>
+  <rect x="1430" y="350" width="420" height="28" class="purple"/>
+  <circle cx="1472" cy="339" r="24" fill="#fff" opacity="0.95"/>
+  <text x="1472" y="347" class="h3 purple" text-anchor="middle">2</text>
+  <text x="1512" y="349" class="h2 white">卷 2：按需继承历史</text>
+
+  <rect x="1458" y="406" width="364" height="112" rx="18" class="soft-purple"/>
+  <text x="1482" y="438" class="h3 ink">卷 2 原文</text>
+  <text x="1482" y="469" class="body ink">利姆路再次出现并接纳大鬼族；</text>
+  <text x="1482" y="496" class="body ink">维尔德拉本卷没有相关进展。</text>
+
+  <path d="M1640 523 L1640 566" class="line-purple"/>
+  <rect x="1458" y="570" width="364" height="164" rx="22" fill="#826c98"/>
+  <text x="1640" y="611" class="h2 white" text-anchor="middle">卷 2 报告 Agent</text>
+  <text x="1482" y="650" class="body white">已知：全部要点的名称与 ID</text>
+  <text x="1482" y="680" class="body white">判断：哪些旧要点在本卷重现</text>
+  <text x="1482" y="710" class="body white">主动读取：只取相关要点历史</text>
+
+  <rect x="1458" y="770" width="364" height="95" rx="18" fill="#f7f2f8" stroke="#826c98" stroke-width="2"/>
+  <text x="1480" y="800" class="small purple">① 主动读取</text>
+  <text x="1480" y="829" class="mono ink">get_knowledge_points([@A1])</text>
+  <text x="1480" y="854" class="small muted">不读取 @A2：本卷没有维尔德拉进展</text>
+
+  <rect x="1458" y="886" width="364" height="132" rx="18" fill="#eaf4f5" stroke="#4896a8" stroke-width="2"/>
+  <text x="1480" y="916" class="small blue">② 增量写入</text>
+  <text x="1480" y="945" class="mono ink">append(@A1, V2 新事迹)</text>
+  <text x="1480" y="974" class="mono ink">create(@B1, 大鬼族)</text>
+  <text x="1480" y="1003" class="small muted">旧历史保留；只追加本卷变化</text>
+
+  <rect x="1458" y="1033" width="364" height="34" rx="12" fill="#eee8f0"/>
+  <text x="1640" y="1056" class="small purple" text-anchor="middle">完成后，最新状态交给卷 3</text>
+
+  <!-- Cross-column arrows and labels -->
+  <path d="M490 720 C525 720 525 630 560 630" class="line-blue"/>
+  <rect x="486" y="642" width="142" height="34" rx="17" fill="#f9f6ef"/>
+  <text x="557" y="665" class="small blue" text-anchor="middle">首次批量写入</text>
+
+  <path d="M1360 750 C1395 750 1395 682 1430 682" class="line-purple"/>
+  <rect x="1315" y="704" width="150" height="34" rx="17" fill="#f9f6ef"/>
+  <text x="1390" y="727" class="small purple" text-anchor="middle">默认只发索引</text>
+
+  <path d="M1430 836 C1390 836 1390 836 1360 836" class="line-purple dash"/>
+  <rect x="1328" y="803" width="138" height="30" rx="15" fill="#f9f6ef"/>
+  <text x="1397" y="824" class="small purple" text-anchor="middle">按需取历史</text>
+
+  <path d="M1430 980 C1395 980 1395 1012 1360 1012" class="line-blue"/>
+  <rect x="1320" y="968" width="145" height="30" rx="15" fill="#f9f6ef"/>
+  <text x="1392" y="989" class="small blue" text-anchor="middle">追加本卷变化</text>
+
+  <!-- Footer principle -->
+  <rect x="70" y="1120" width="1780" height="52" rx="20" fill="#31474d"/>
+  <text x="960" y="1154" class="h3 white" text-anchor="middle">关键原则：全量提供“目录”，按需读取“历史”，按卷追加“变化” —— 避免下一卷重复携带整张知识库。</text>
+</svg>

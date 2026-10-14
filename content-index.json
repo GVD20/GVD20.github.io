@@ -1,0 +1,474 @@
+{
+  "site": "Owlcarp",
+  "origin": "https://gvd20.github.io",
+  "language": "zh-CN",
+  "pages": [
+    {
+      "url": "https://gvd20.github.io/",
+      "path": "/",
+      "title": "Owlcarp",
+      "description": "Owlcarp — 在这里记录自己、生活和有意思的项目。",
+      "language": "zh-CN",
+      "markdown": "https://gvd20.github.io/index.md",
+      "image": "https://gvd20.github.io/share/home.png",
+      "keywords": [
+        "Owlcarp",
+        "猫头鱼",
+        "个人网站",
+        "项目作品集",
+        "BK_STATION",
+        "UnderStory",
+        "CCtrl"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "项目 Works",
+          "url": "https://gvd20.github.io/#works-title"
+        },
+        {
+          "level": 3,
+          "text": "BK_STATION ↗",
+          "url": "https://gvd20.github.io/#bk-title"
+        },
+        {
+          "level": 3,
+          "text": "UnderStory ↗",
+          "url": "https://gvd20.github.io/#light-title"
+        },
+        {
+          "level": 3,
+          "text": "CCtrl ↗",
+          "url": "https://gvd20.github.io/#cctrl-title"
+        },
+        {
+          "level": 3,
+          "text": "打个招呼？",
+          "url": "https://gvd20.github.io/#contact-title"
+        }
+      ]
+    },
+    {
+      "url": "https://gvd20.github.io/bk-station/",
+      "path": "/bk-station/",
+      "title": "BK_Studio · Owlcarp",
+      "description": "从宿舍角落的 BK_STATION，到建立在对话上的 BK_Studio。一个真实打印店的三年与下一步。",
+      "language": "zh-CN",
+      "markdown": "https://gvd20.github.io/bk-station/index.md",
+      "image": "https://gvd20.github.io/share/bk-station.png",
+      "keywords": [
+        "BK_STATION",
+        "校园打印店",
+        "打印服务",
+        "项目复盘"
+      ],
+      "headings": []
+    },
+    {
+      "url": "https://gvd20.github.io/bk-station/part-i/",
+      "path": "/bk-station/part-i/",
+      "title": "Part I：记一家宿舍角落逐渐生长的打印店 · Owlcarp",
+      "description": "记一家宿舍角落逐渐生长的打印店：从第一台二手打印机，到三年的真实运营与设计反馈。",
+      "language": "zh-CN",
+      "markdown": "https://gvd20.github.io/bk-station/part-i/index.md",
+      "image": "https://gvd20.github.io/share/bk-part-i.png",
+      "keywords": [
+        "BK_STATION",
+        "打印店运营",
+        "校园创业",
+        "自助打印"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "在有限空间里生长",
+          "url": "https://gvd20.github.io/bk-station/part-i/#在有限空间里生长"
+        },
+        {
+          "level": 3,
+          "text": "标识与引导设计",
+          "url": "https://gvd20.github.io/bk-station/part-i/#标识与引导设计"
+        },
+        {
+          "level": 2,
+          "text": "自己做下单系统",
+          "url": "https://gvd20.github.io/bk-station/part-i/#自己做下单系统"
+        },
+        {
+          "level": 2,
+          "text": "三年后的 BK_STATION",
+          "url": "https://gvd20.github.io/bk-station/part-i/#三年后的-bkstation"
+        },
+        {
+          "level": 3,
+          "text": "一台老 iPad 和无人值守体验",
+          "url": "https://gvd20.github.io/bk-station/part-i/#一台老-ipad-和无人值守体验"
+        },
+        {
+          "level": 3,
+          "text": "比互动更直接的一颗薄荷糖",
+          "url": "https://gvd20.github.io/bk-station/part-i/#比互动更直接的一颗薄荷糖"
+        }
+      ]
+    },
+    {
+      "url": "https://gvd20.github.io/bk-station/part-ii/",
+      "path": "/bk-station/part-ii/",
+      "title": "Part II：一台老 iPad上的 Kiosk 系统设计 · Owlcarp",
+      "description": "一台老 iPad上的 Kiosk 系统设计：打印统计、业务展示、故障指引与公共空间中的互动。",
+      "language": "zh-CN",
+      "markdown": "https://gvd20.github.io/bk-station/part-ii/index.md",
+      "image": "https://gvd20.github.io/share/bk-part-ii.png",
+      "keywords": [
+        "BK_STATION",
+        "Kiosk",
+        "iPad",
+        "自助打印",
+        "界面设计",
+        "Live2D"
+      ],
+      "headings": [
+        {
+          "level": 3,
+          "text": "为什么要用一台老 iPad 来做 Kiosk？",
+          "url": "https://gvd20.github.io/bk-station/part-ii/#为什么要用一台老-ipad-来做-kiosk"
+        },
+        {
+          "level": 3,
+          "text": "打印统计看板",
+          "url": "https://gvd20.github.io/bk-station/part-ii/#打印统计看板"
+        },
+        {
+          "level": 3,
+          "text": "“高质量打印”和其他特殊业务的展示",
+          "url": "https://gvd20.github.io/bk-station/part-ii/#高质量打印-和其他特殊业务的展示"
+        },
+        {
+          "level": 3,
+          "text": "视觉物品检测与归还提醒",
+          "url": "https://gvd20.github.io/bk-station/part-ii/#视觉物品检测与归还提醒"
+        },
+        {
+          "level": 3,
+          "text": "Kiosk 上的故障处理标识",
+          "url": "https://gvd20.github.io/bk-station/part-ii/#kiosk-上的故障处理标识"
+        },
+        {
+          "level": 3,
+          "text": "后台系统与空气净化的联动",
+          "url": "https://gvd20.github.io/bk-station/part-ii/#后台系统与空气净化的联动"
+        },
+        {
+          "level": 3,
+          "text": "三种简单的互动设计",
+          "url": "https://gvd20.github.io/bk-station/part-ii/#三种简单的互动设计"
+        },
+        {
+          "level": 3,
+          "text": "“一言”与待机提示文本",
+          "url": "https://gvd20.github.io/bk-station/part-ii/#一言-与待机提示文本"
+        },
+        {
+          "level": 3,
+          "text": "Live2D 看板娘",
+          "url": "https://gvd20.github.io/bk-station/part-ii/#live2d-看板娘"
+        },
+        {
+          "level": 3,
+          "text": "非营业模式与 Kiosk 的联动",
+          "url": "https://gvd20.github.io/bk-station/part-ii/#非营业模式与-kiosk-的联动"
+        },
+        {
+          "level": 3,
+          "text": "总结",
+          "url": "https://gvd20.github.io/bk-station/part-ii/#总结"
+        }
+      ]
+    },
+    {
+      "url": "https://gvd20.github.io/bk-station/part-iii/",
+      "path": "/bk-station/part-iii/",
+      "title": "Part III：BK_Studio · Owlcarp",
+      "description": "Part III：BK_Studio，建立在对话上的打印服务产品。",
+      "language": "zh-CN",
+      "markdown": "https://gvd20.github.io/bk-station/part-iii/index.md",
+      "image": "https://gvd20.github.io/share/bk-studio.png",
+      "keywords": [
+        "BK_Studio",
+        "AI打印",
+        "对话式服务",
+        "产品设计"
+      ],
+      "headings": []
+    },
+    {
+      "url": "https://gvd20.github.io/cctrl/",
+      "path": "/cctrl/",
+      "title": "CCtrl：从空间鼠标到六轴机械臂控制器 · Owlcarp",
+      "description": "CCtrl：从空间鼠标到六轴机械臂控制器，记录两代自定义控制器的机械设计、PCB、嵌入式固件与机器人控制实践。",
+      "language": "zh-CN",
+      "markdown": "https://gvd20.github.io/cctrl/index.md",
+      "image": "https://gvd20.github.io/share/cctrl.png",
+      "keywords": [
+        "CCtrl",
+        "空间鼠标",
+        "六轴机械臂",
+        "RoboMaster",
+        "PCB",
+        "嵌入式"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "一个四连杆的想法",
+          "url": "https://gvd20.github.io/cctrl/#一个四连杆的想法"
+        },
+        {
+          "level": 2,
+          "text": "从三个角度到一组空间坐标",
+          "url": "https://gvd20.github.io/cctrl/#从三个角度到一组空间坐标"
+        },
+        {
+          "level": 2,
+          "text": "四根线串起整台控制器",
+          "url": "https://gvd20.github.io/cctrl/#四根线串起整台控制器"
+        },
+        {
+          "level": 2,
+          "text": "当虚拟方块遇上真正的机械臂",
+          "url": "https://gvd20.github.io/cctrl/#当虚拟方块遇上真正的机械臂"
+        },
+        {
+          "level": 2,
+          "text": "第二代：把控制问题还给关节",
+          "url": "https://gvd20.github.io/cctrl/#第二代-把控制问题还给关节"
+        },
+        {
+          "level": 2,
+          "text": "没有装进最终版本的滑环",
+          "url": "https://gvd20.github.io/cctrl/#没有装进最终版本的滑环"
+        },
+        {
+          "level": 2,
+          "text": "六个编码器，以及比关节角更难的小问题",
+          "url": "https://gvd20.github.io/cctrl/#六个编码器-以及比关节角更难的小问题"
+        },
+        {
+          "level": 2,
+          "text": "一组角度，为什么需要这么多处理",
+          "url": "https://gvd20.github.io/cctrl/#一组角度-为什么需要这么多处理"
+        },
+        {
+          "level": 2,
+          "text": "从工作台到比赛桌",
+          "url": "https://gvd20.github.io/cctrl/#从工作台到比赛桌"
+        }
+      ]
+    },
+    {
+      "url": "https://gvd20.github.io/understory/",
+      "path": "/understory/",
+      "title": "UnderStory：深入文本的轻小说阅读器 · Owlcarp",
+      "description": "UnderStory：把正文阅读、作品 Wiki 与 AI 阅读伙伴连接起来。体验界面与功能演示，了解产品思考及长文本 Harness 设计。",
+      "language": "zh-CN",
+      "markdown": "https://gvd20.github.io/understory/index.md",
+      "image": "https://gvd20.github.io/share/understory.png",
+      "keywords": [
+        "UnderStory",
+        "轻小说阅读器",
+        "动态Wiki",
+        "AI阅读",
+        "长文本",
+        "Harness",
+        "剧透屏蔽"
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "Under Story",
+          "url": "https://gvd20.github.io/understory/#product"
+        },
+        {
+          "level": 2,
+          "text": "阅读之外， 故事之内。",
+          "url": "https://gvd20.github.io/understory/#features"
+        },
+        {
+          "level": 1,
+          "text": "深入文本的轻小说阅读器",
+          "url": "https://gvd20.github.io/understory/#design"
+        },
+        {
+          "level": 2,
+          "text": "第一部分：产品设计",
+          "url": "https://gvd20.github.io/understory/#第一部分-产品设计"
+        },
+        {
+          "level": 3,
+          "text": "基础板块",
+          "url": "https://gvd20.github.io/understory/#基础板块"
+        },
+        {
+          "level": 4,
+          "text": "阅读",
+          "url": "https://gvd20.github.io/understory/#阅读"
+        },
+        {
+          "level": 4,
+          "text": "Wiki",
+          "url": "https://gvd20.github.io/understory/#wiki"
+        },
+        {
+          "level": 4,
+          "text": "对话",
+          "url": "https://gvd20.github.io/understory/#对话"
+        },
+        {
+          "level": 3,
+          "text": "阅读侧栏",
+          "url": "https://gvd20.github.io/understory/#阅读侧栏"
+        },
+        {
+          "level": 3,
+          "text": "原文选中与快速查询",
+          "url": "https://gvd20.github.io/understory/#原文选中与快速查询"
+        },
+        {
+          "level": 3,
+          "text": "阅读进度条",
+          "url": "https://gvd20.github.io/understory/#阅读进度条"
+        },
+        {
+          "level": 3,
+          "text": "反剧透",
+          "url": "https://gvd20.github.io/understory/#反剧透"
+        },
+        {
+          "level": 4,
+          "text": "Wiki 的剧透屏蔽",
+          "url": "https://gvd20.github.io/understory/#wiki-的剧透屏蔽"
+        },
+        {
+          "level": 4,
+          "text": "对话的剧透确认",
+          "url": "https://gvd20.github.io/understory/#对话的剧透确认"
+        },
+        {
+          "level": 3,
+          "text": "阅读体验与设置",
+          "url": "https://gvd20.github.io/understory/#阅读体验与设置"
+        },
+        {
+          "level": 4,
+          "text": "EPUB 排版",
+          "url": "https://gvd20.github.io/understory/#epub-排版"
+        },
+        {
+          "level": 4,
+          "text": "插画显示",
+          "url": "https://gvd20.github.io/understory/#插画显示"
+        },
+        {
+          "level": 4,
+          "text": "自然语言调整设置",
+          "url": "https://gvd20.github.io/understory/#自然语言调整设置"
+        },
+        {
+          "level": 4,
+          "text": "阅读主题",
+          "url": "https://gvd20.github.io/understory/#阅读主题"
+        },
+        {
+          "level": 3,
+          "text": "Wiki 页面设计",
+          "url": "https://gvd20.github.io/understory/#wiki-页面设计"
+        },
+        {
+          "level": 4,
+          "text": "首页与类目",
+          "url": "https://gvd20.github.io/understory/#首页与类目"
+        },
+        {
+          "level": 4,
+          "text": "词条页",
+          "url": "https://gvd20.github.io/understory/#词条页"
+        },
+        {
+          "level": 4,
+          "text": "叙事轨迹",
+          "url": "https://gvd20.github.io/understory/#叙事轨迹"
+        },
+        {
+          "level": 4,
+          "text": "作品导航",
+          "url": "https://gvd20.github.io/understory/#作品导航"
+        },
+        {
+          "level": 2,
+          "text": "第二部分：模型运行架构",
+          "url": "https://gvd20.github.io/understory/#第二部分-模型运行架构"
+        },
+        {
+          "level": 3,
+          "text": "作品分析流程",
+          "url": "https://gvd20.github.io/understory/#作品分析流程"
+        },
+        {
+          "level": 4,
+          "text": "V1：逐章分析",
+          "url": "https://gvd20.github.io/understory/#v1-逐章分析"
+        },
+        {
+          "level": 4,
+          "text": "V2：逐卷分析",
+          "url": "https://gvd20.github.io/understory/#v2-逐卷分析"
+        },
+        {
+          "level": 3,
+          "text": "公共要点表",
+          "url": "https://gvd20.github.io/understory/#公共要点表"
+        },
+        {
+          "level": 3,
+          "text": "Wiki 生成架构",
+          "url": "https://gvd20.github.io/understory/#wiki-生成架构"
+        },
+        {
+          "level": 3,
+          "text": "词条分级与撰写",
+          "url": "https://gvd20.github.io/understory/#词条分级与撰写"
+        },
+        {
+          "level": 3,
+          "text": "对话 Agent",
+          "url": "https://gvd20.github.io/understory/#对话-agent"
+        },
+        {
+          "level": 3,
+          "text": "RAG 检索与混合方案",
+          "url": "https://gvd20.github.io/understory/#rag-检索与混合方案"
+        },
+        {
+          "level": 4,
+          "text": "词法检索",
+          "url": "https://gvd20.github.io/understory/#词法检索"
+        },
+        {
+          "level": 4,
+          "text": "语义检索",
+          "url": "https://gvd20.github.io/understory/#语义检索"
+        },
+        {
+          "level": 4,
+          "text": "混合检索与结果排序",
+          "url": "https://gvd20.github.io/understory/#混合检索与结果排序"
+        },
+        {
+          "level": 2,
+          "text": "后记",
+          "url": "https://gvd20.github.io/understory/#后记"
+        }
+      ]
+    }
+  ]
+}

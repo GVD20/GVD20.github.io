@@ -1,0 +1,1 @@
+const c=matchMedia("(prefers-color-scheme: dark)"),e=document.querySelector("link[data-site-icon]"),t=()=>{e&&(e.href=c.matches?"/favicon-dark.svg":"/favicon-light.svg")};t();c.addEventListener("change",t);

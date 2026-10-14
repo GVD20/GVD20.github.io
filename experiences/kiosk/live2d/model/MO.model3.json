@@ -1,0 +1,41 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "MO.moc3",
+    "Textures": [
+      "MO.512/texture_00.webp",
+      "MO.512/texture_01.webp",
+      "MO.512/texture_02.webp",
+      "MO.512/texture_03.webp",
+      "MO.512/texture_04.webp",
+      "MO.512/texture_05.webp",
+      "MO.512/texture_06.webp",
+      "MO.512/texture_07.webp",
+      "MO.512/texture_08.webp",
+      "MO.512/texture_09.webp"
+    ],
+    "Physics": "MO.physics3.json",
+    "DisplayInfo": "MO.cdi3.json",
+    "Expressions": [
+      {
+        "Name": "default",
+        "File": "defult233.exp3.json"
+      }
+    ]
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": []
+    }
+  ]
+}
