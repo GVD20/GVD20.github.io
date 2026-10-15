@@ -24,7 +24,7 @@ BK_STATION 的 Kiosk 最早来自一个很简单的问题：用户通过手机�
 
 我计划用引导式访问 + 固定布局 + Bark 通知 SDK + 浏览器来实现 Kiosk 功能。Kiosk 应用是服务器小主机上运行的 Python Flask 应用，通过 Win32 包实现读取打印列表和打印机状态。第一版的前端界面如图所示：
 
-![2024-5 Kiosk 看板 v1](https://gvd20.github.io/images/responsive/articles/bk-part-i/020-480.webp)
+![2024-5 Kiosk 看板 v1](https://gvd20.github.io/images/responsive/articles/bk-part-i/020-480-61d6ccca4b.webp)
 
 **最初的 Kiosk 看板，实现了活动任务监控、历史任务记录、欢迎语和打印机状态监控**
 
@@ -46,23 +46,23 @@ BK_STATION 的 Kiosk 最早来自一个很简单的问题：用户通过手机�
 
 我首先想到的是打印页数统计，对用户来说可能未必有用，但这是最能体现整个系统作为一个“活着的店铺”存在的面板：
 
-![图片 1](https://gvd20.github.io/images/responsive/articles/bk-part-i/021-480.webp)
+![图片 1](https://gvd20.github.io/images/responsive/articles/bk-part-i/021-480-55a895cb57.webp)
 
 界面会根据过去 12 小时的打印情况生成柱形图，并根据文件后缀名来分类。这样就能看到：“某天一个课程要开卷考，出现了大量的 PPT 订单”、“某天学校举行双选会，出现了大量单页的 PDF 简历”……图形会随着实际情况变化，Kiosk 看起来真正会和真实的运营情况联动。
 
 文件识别直接通过正则过滤文件扩展名来实现。除了用于统计，还用于文件列表中的标签展示：
 
-![image-20260920164805038](https://gvd20.github.io/images/responsive/articles/bk-part-ii/022-480.webp)
+![image-20260920164805038](https://gvd20.github.io/images/responsive/articles/bk-part-ii/022-480-5e6ae93421.webp)
 
 ### “高质量打印”和其他特殊业务的展示
 
 在购入新的打印机 GX 5580 后，由于有了第二个纸槽，可以装入两张不同类型的纸。我于是购入了几包 Double A 90 g 纸（相较于普通的 80 g 纸），肉眼可见地有更好的质感提升。配合驱动中设置的高质量打印参数，我开设了另一条“高质量打印”产品线；另外后部进纸器可以装入相纸，因此顺便加设一个 6 寸照片和证件照打印的选项。
 
-![image-20260920170624753](https://gvd20.github.io/images/responsive/articles/bk-part-ii/023-480.webp)
+![image-20260920170624753](https://gvd20.github.io/images/responsive/articles/bk-part-ii/023-480-30149afa2f.webp)
 
 **“高质量打印”的两版海报**
 
-![照片和高质量的特殊 Kiosk 样式](https://gvd20.github.io/images/responsive/articles/bk-part-ii/024-480.webp)
+![照片和高质量的特殊 Kiosk 样式](https://gvd20.github.io/images/responsive/articles/bk-part-ii/024-480-4e498800d0.webp)
 
 **我还为照片打印和 Pro 打印（高质量打印）提供了 Kiosk 上的特殊样式。**
 
@@ -74,17 +74,17 @@ BK_STATION 的 Kiosk 最早来自一个很简单的问题：用户通过手机�
 
 我很想试试这个点子，于是用 3D 打印做了一个物品托盘：
 
-![带有视觉识别的工具托盘](https://gvd20.github.io/images/responsive/articles/bk-part-ii/025-480.webp)
+![带有视觉识别的工具托盘](https://gvd20.github.io/images/responsive/articles/bk-part-ii/025-480-6786d3f760.webp)
 
 **带有 AprilTag 的工具托盘。**
 
 每个物品上都贴有 AprilTag，且托盘本身也有 AprilTag。我通过磁吸固定在架子顶层的摄像头监控物品的情况。
 
-![abdf0c13b7e834a8be8d5222c7bf7f58](https://gvd20.github.io/images/responsive/articles/bk-part-ii/026-480.webp)
+![abdf0c13b7e834a8be8d5222c7bf7f58](https://gvd20.github.io/images/responsive/articles/bk-part-ii/026-480-77779a6ece.webp)
 
 **工具托盘区域和上方的摄像头**
 
-![2026 秋季 物品托盘区域附近的视觉检查](https://gvd20.github.io/images/responsive/articles/bk-part-ii/027-480.webp)
+![2026 秋季 物品托盘区域附近的视觉检查](https://gvd20.github.io/images/responsive/articles/bk-part-ii/027-480-f1e88264a0.webp)
 
 **物品托盘区域附近的视觉检查**
 
@@ -92,7 +92,7 @@ BK_STATION 的 Kiosk 最早来自一个很简单的问题：用户通过手机�
 
 物品检测以弹窗 Toast 的方式显示在 iPad Kiosk 的右上角，如图所示：
 
-![2026 秋季 物品检测的用户交互](https://gvd20.github.io/images/responsive/articles/bk-part-i/detection-480.webp)
+![2026 秋季 物品检测的用户交互](https://gvd20.github.io/images/responsive/articles/bk-part-i/detection-480-b785048363.webp)
 
 我无法统计物品放回率有多大程度上来自这个 Toast 弹窗，也有可能 3D 打印的物品托盘本身就让物品有了固定位置。但总之物品使用后的归位率确实比以前更高。
 
@@ -100,13 +100,13 @@ BK_STATION 的 Kiosk 最早来自一个很简单的问题：用户通过手机�
 
 我还想更加充分地利用这台 Kiosk。还记得之前的缺纸处理标牌吗？自从更换了两台打印机后，加纸变得比原先更复杂，且由于纸盒更大，打印机加纸的频率也变得更低，因此我一直没有再去做类似的标牌。有了 Kiosk 后，我们可以将不同打印机的不同错误自助处理教程直接显示在屏幕上，甚至可以根据打印机的错误情况，让 Kiosk 主动弹出加纸教程。我增设了一个“故障排除”入口，用户遇到常见问题，不必再等我回来处理，可以直接在 Kiosk 上查看教程：
 
-![image-20260920184627911](https://gvd20.github.io/images/responsive/articles/bk-part-ii/029-480.webp)
+![image-20260920184627911](https://gvd20.github.io/images/responsive/articles/bk-part-ii/029-480-4ed4bfcf77.webp)
 
 **Kiosk 故障排除和引导界面**
 
 后台检测到打印机缺纸时，会主动唤醒 Kiosk，然后显示处理窗口：
 
-![主动触发的加纸引导弹窗（v4）](https://gvd20.github.io/images/responsive/articles/bk-part-ii/030-480.webp)
+![主动触发的加纸引导弹窗（v4）](https://gvd20.github.io/images/responsive/articles/bk-part-ii/030-480-01099f4853.webp)
 
 **主动触发的加纸引导弹窗**
 
@@ -126,11 +126,11 @@ BK_STATION 的 Kiosk 最早来自一个很简单的问题：用户通过手机�
 
 - 其他时间使用 30% 风量，夜间启用风量更小的睡眠模式。
 
-![image-20260920192633822](https://gvd20.github.io/images/responsive/articles/bk-part-i/031-480.webp)
+![image-20260920192633822](https://gvd20.github.io/images/responsive/articles/bk-part-i/031-480-bd80f85ed6.webp)
 
 **后台的空气净化操作日志**
 
-![image-20260920192712678](https://gvd20.github.io/images/responsive/articles/bk-part-ii/032-480.webp)
+![image-20260920192712678](https://gvd20.github.io/images/responsive/articles/bk-part-ii/032-480-d65f5a828c.webp)
 
 **Kiosk 上的净化器情况显示，复用了 Toast 样式。**
 
@@ -140,15 +140,15 @@ BK_STATION 的 Kiosk 最早来自一个很简单的问题：用户通过手机�
 
 我希望在打印后，Kiosk 能主动与用户发起互动，分别解决等待过程无聊、用户反馈少、打印问题难以处理的问题。打印后的用户互动有三种形式，会在活动任务被清空后的十几秒后按照比例自动弹出：
 
-![互动 UX1：常见问题弹窗](https://gvd20.github.io/images/responsive/articles/bk-part-i/033-480.webp)
+![互动 UX1：常见问题弹窗](https://gvd20.github.io/images/responsive/articles/bk-part-i/033-480-98b3e5f87e.webp)
 
 **互动 UX1：常见问题弹窗**
 
-![互动 UX2：评分问卷弹窗](https://gvd20.github.io/images/responsive/articles/bk-part-i/import-659e22783f06-480.webp)
+![互动 UX2：评分问卷弹窗](https://gvd20.github.io/images/responsive/articles/bk-part-i/import-659e22783f06-480-99374ce4b1.webp)
 
 **互动 UX2：评分问卷弹窗**
 
-![互动 UX3：点赞](https://gvd20.github.io/images/responsive/articles/bk-part-ii/035-480.webp)
+![互动 UX3：点赞](https://gvd20.github.io/images/responsive/articles/bk-part-ii/035-480-179f88e6d3.webp)
 
 **互动 UX3：点赞**
 
@@ -166,7 +166,7 @@ BK_STATION 的 Kiosk 最早来自一个很简单的问题：用户通过手机�
 
 接下来是轮播文字。我希望 Kiosk 在用户等待过程中也能提供一些有意义的信息。参考游戏加载界面的轮播提示，我在 Kiosk 主页增加了一个一言/提示模块：
 
-![image-20260920203817222](https://gvd20.github.io/images/responsive/articles/bk-part-ii/036-480.webp)
+![image-20260920203817222](https://gvd20.github.io/images/responsive/articles/bk-part-ii/036-480-7a7659a525.webp)
 
 内容来自两种来源：
 
@@ -184,13 +184,13 @@ BK_STATION 的 Kiosk 最早来自一个很简单的问题：用户通过手机�
 
 MO 除了基本的呼吸、眨眼、摇曳动效以外，还提供简单的页面互动。当有 Toast 时，她会看向上方 Toast 的位置；当有弹窗时，会面向弹窗：
 
-![image-20260920210835492](https://gvd20.github.io/images/responsive/articles/bk-part-ii/037-480.webp)
+![image-20260920210835492](https://gvd20.github.io/images/responsive/articles/bk-part-ii/037-480-ecb26c6158.webp)
 
 原本还想实现预设表情动画，但纯程序的实现略显僵硬，最后只保留了基本的朝向动作。
 
 当页面滑动时，看板娘会隐藏，避免遮挡内容。此外，轮播文字区域也会避让看板娘。
 
-![image-20260920211106017](https://gvd20.github.io/images/responsive/articles/bk-part-ii/038-480.webp)
+![image-20260920211106017](https://gvd20.github.io/images/responsive/articles/bk-part-ii/038-480-27326ada24.webp)
 
 **轮播文字左对齐避让与看板娘自动隐藏。**
 
@@ -202,7 +202,7 @@ MO 除了基本的呼吸、眨眼、摇曳动效以外，还提供简单的页�
 
 针对这个问题，我设计了非营业模式的界面，23:50 之后，Kiosk 会切换到这个模式：
 
-![非营业模式 Kiosk](https://gvd20.github.io/images/responsive/articles/bk-part-ii/041-480.webp)
+![非营业模式 Kiosk](https://gvd20.github.io/images/responsive/articles/bk-part-ii/041-480-81728abae2.webp)
 
 **非营业模式 Kiosk 界面**
 

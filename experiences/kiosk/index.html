@@ -1,150 +1,135 @@
-<!doctype html><html lang="zh-CN"><head>
-  <meta name="robots" content="noindex, follow"><meta charset="UTF-8"><meta name="viewport" content="width=768, initial-scale=1"><title>BK小监控</title><link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/svg+xml" href="/favicon-light.svg" data-site-icon><link rel="apple-touch-icon" href="/apple-touch-icon.png"><script>document.documentElement.dataset.imagePlaceholder=(function choosePlaceholder({ userAgent = "", saveData = false, deviceMemory, supportsFilter = true } = {}) {
+<!DOCTYPE html>
+
+<html lang="zh-CN"><head>
+<meta content="noindex, follow" name="robots"/><meta charset="utf-8"/><meta content="width=768, initial-scale=1" name="viewport"/><title>BK小监控</title><link href="/favicon.ico" rel="icon" sizes="any"/><link data-site-icon="" href="/favicon-light.svg" rel="icon" type="image/svg+xml"/><link href="/apple-touch-icon.png" rel="apple-touch-icon"/><script>document.documentElement.dataset.imagePlaceholder=(function choosePlaceholder({ userAgent = "", saveData = false, deviceMemory, supportsFilter = true } = {}) {
   const webkit = /AppleWebKit/i.test(userAgent) && !/(Chrome|Chromium|Edg|OPR|SamsungBrowser)/i.test(userAgent);
   const lowMemory = typeof deviceMemory === "number" && deviceMemory > 0 && deviceMemory <= 2;
   return webkit || saveData || lowMemory || !supportsFilter ? "plain" : "lqip";
-})({userAgent:navigator.userAgent,saveData:navigator.connection?.saveData===true,deviceMemory:navigator.deviceMemory,supportsFilter:typeof CSS!=='undefined'&&CSS.supports('filter','blur(1px)')});</script><style>.skip-link:not(:focus){position:absolute;clip-path:inset(50%);width:1px;height:1px;overflow:hidden}.nav-frame,.nav-arrow{opacity:0}.brand-wordmark[data-outline-ready]>.brand-fallback{display:none}dialog:not([open]),[hidden]{display:none!important}</style><noscript><style>.image-placeholder>span{background-image:none!important;filter:none!important;inset:0!important;background:#f3f3f3}</style></noscript>  <script type="module" crossorigin src="/assets/kiosk-Bdl9OuDF.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-B5Qt9EMX.js">
-  <link rel="modulepreload" crossorigin href="/assets/favicon-RpiOqubk.js">
-  <link rel="stylesheet" crossorigin href="/assets/kiosk-EHw0ZPZD.css">
-</head><body><main id="kiosk-scroll"><br>
-    <div class="container">
-        
-        <div class="module" id="welcome-module">
-            <div class="logo-container">
-                <img src="/experiences/kiosk/assets/logo.svg" alt="打印店logo" class="logo">
-            </div>
-            <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-                <div class="welcome-text">
-                    <h1>欢迎来到小黑店ヾ(≧▽≦*)o</h1>
-                    <p>- 扫描二维码即可打印~</br>
-                        - 建议即打即取！文件最多保留两天。</br>
-                        - 23:50后的文件将延期至次日7:50打印。</br>
+})({userAgent:navigator.userAgent,saveData:navigator.connection?.saveData===true,deviceMemory:navigator.deviceMemory,supportsFilter:typeof CSS!=='undefined'&&CSS.supports('filter','blur(1px)')});</script><style>.skip-link:not(:focus){position:absolute;clip-path:inset(50%);width:1px;height:1px;overflow:hidden}.nav-frame,.nav-arrow{opacity:0}.brand-wordmark[data-outline-ready]>.brand-fallback{display:none}dialog:not([open]),[hidden]{display:none!important}</style><noscript><style>.image-placeholder>span{background-image:none!important;filter:none!important;inset:0!important;background:#f3f3f3}</style></noscript> <script crossorigin="" src="/assets/kiosk-cyjTcMYo.js" type="module"></script>
+<link crossorigin="" href="/assets/modulepreload-polyfill-B5Qt9EMX.js" rel="modulepreload"/>
+<link crossorigin="" href="/assets/favicon-RpiOqubk.js" rel="modulepreload"/>
+<link crossorigin="" href="/assets/kiosk-CQaaMTT6.css" rel="stylesheet"/>
+<link data-font-shards="" href="/fonts/shards-0c88048ca4f0a0.css" rel="stylesheet"/><script id="site-font-plan" type="application/json">{"current": {"needed": ["/fonts/owlcarp-sans-b12cf87fad10ae.woff2", "/fonts/owlcarp-sans-93c7e3575859e9.woff2", "/fonts/owlcarp-sans-346e6ae6988304.woff2", "/fonts/owlcarp-sans-f872baf4be7ba9.woff2"], "critical": []}, "pages": {"/404.html": {"needed": ["/fonts/owlcarp-sans-b12cf87fad10ae.woff2", "/fonts/owlcarp-sans-93c7e3575859e9.woff2", "/fonts/owlcarp-sans-346e6ae6988304.woff2", "/fonts/owlcarp-sans-f872baf4be7ba9.woff2"], "critical": []}, "/bk-station/": {"needed": ["/fonts/owlcarp-serif-ed3c0f2372c759.woff2", "/fonts/owlcarp-serif-7c97fb75613717.woff2", "/fonts/owlcarp-serif-608abbac94726e.woff2", "/fonts/owlcarp-serif-26471a4ed13efe.woff2", "/fonts/owlcarp-serif-1ecd748705865a.woff2", "/fonts/owlcarp-sans-b12cf87fad10ae.woff2", "/fonts/owlcarp-sans-93c7e3575859e9.woff2", "/fonts/owlcarp-sans-346e6ae6988304.woff2"], "critical": ["/fonts/owlcarp-serif-ed3c0f2372c759.woff2", "/fonts/owlcarp-serif-7c97fb75613717.woff2", "/fonts/owlcarp-serif-608abbac94726e.woff2", "/fonts/owlcarp-sans-b12cf87fad10ae.woff2", "/fonts/owlcarp-sans-93c7e3575859e9.woff2"]}, "/bk-station/part-i/": {"needed": ["/fonts/owlcarp-serif-ed3c0f2372c759.woff2", "/fonts/owlcarp-serif-7c97fb75613717.woff2", "/fonts/owlcarp-serif-608abbac94726e.woff2", "/fonts/owlcarp-serif-26471a4ed13efe.woff2", "/fonts/owlcarp-serif-1ecd748705865a.woff2", "/fonts/owlcarp-sans-b12cf87fad10ae.woff2", "/fonts/owlcarp-sans-93c7e3575859e9.woff2", "/fonts/owlcarp-sans-346e6ae6988304.woff2", "/fonts/owlcarp-sans-f872baf4be7ba9.woff2"], "critical": ["/fonts/owlcarp-serif-ed3c0f2372c759.woff2", "/fonts/owlcarp-serif-7c97fb75613717.woff2", "/fonts/owlcarp-serif-608abbac94726e.woff2", "/fonts/owlcarp-sans-b12cf87fad10ae.woff2", "/fonts/owlcarp-sans-93c7e3575859e9.woff2"]}, "/bk-station/part-ii/": {"needed": ["/fonts/owlcarp-serif-ed3c0f2372c759.woff2", "/fonts/owlcarp-serif-7c97fb75613717.woff2", "/fonts/owlcarp-serif-608abbac94726e.woff2", "/fonts/owlcarp-serif-26471a4ed13efe.woff2", "/fonts/owlcarp-serif-1ecd748705865a.woff2", "/fonts/owlcarp-sans-b12cf87fad10ae.woff2", "/fonts/owlcarp-sans-93c7e3575859e9.woff2", "/fonts/owlcarp-sans-346e6ae6988304.woff2", "/fonts/owlcarp-sans-f872baf4be7ba9.woff2"], "critical": ["/fonts/owlcarp-serif-ed3c0f2372c759.woff2", "/fonts/owlcarp-serif-7c97fb75613717.woff2", "/fonts/owlcarp-serif-608abbac94726e.woff2", "/fonts/owlcarp-sans-b12cf87fad10ae.woff2", "/fonts/owlcarp-sans-93c7e3575859e9.woff2"]}, "/bk-station/part-iii/": {"needed": ["/fonts/owlcarp-serif-ed3c0f2372c759.woff2", "/fonts/owlcarp-serif-7c97fb75613717.woff2", "/fonts/owlcarp-serif-608abbac94726e.woff2", "/fonts/owlcarp-serif-26471a4ed13efe.woff2", "/fonts/owlcarp-serif-1ecd748705865a.woff2", "/fonts/owlcarp-sans-b12cf87fad10ae.woff2", "/fonts/owlcarp-sans-93c7e3575859e9.woff2", "/fonts/owlcarp-sans-346e6ae6988304.woff2"], "critical": ["/fonts/owlcarp-serif-ed3c0f2372c759.woff2", "/fonts/owlcarp-serif-7c97fb75613717.woff2", "/fonts/owlcarp-serif-608abbac94726e.woff2", "/fonts/owlcarp-sans-b12cf87fad10ae.woff2", "/fonts/owlcarp-sans-93c7e3575859e9.woff2"]}, "/cctrl/": {"needed": ["/fonts/owlcarp-serif-ed3c0f2372c759.woff2", "/fonts/owlcarp-serif-7c97fb75613717.woff2", "/fonts/owlcarp-serif-608abbac94726e.woff2", "/fonts/owlcarp-serif-26471a4ed13efe.woff2", "/fonts/owlcarp-serif-1ecd748705865a.woff2", "/fonts/owlcarp-sans-b12cf87fad10ae.woff2", "/fonts/owlcarp-sans-93c7e3575859e9.woff2", "/fonts/owlcarp-sans-346e6ae6988304.woff2", "/fonts/owlcarp-sans-f872baf4be7ba9.woff2"], "critical": ["/fonts/owlcarp-serif-ed3c0f2372c759.woff2", "/fonts/owlcarp-serif-7c97fb75613717.woff2", "/fonts/owlcarp-serif-608abbac94726e.woff2", "/fonts/owlcarp-sans-b12cf87fad10ae.woff2", "/fonts/owlcarp-sans-93c7e3575859e9.woff2"]}, "/experiences/kiosk/": {"needed": ["/fonts/owlcarp-sans-b12cf87fad10ae.woff2", "/fonts/owlcarp-sans-93c7e3575859e9.woff2", "/fonts/owlcarp-sans-346e6ae6988304.woff2", "/fonts/owlcarp-sans-f872baf4be7ba9.woff2"], "critical": []}, "/": {"needed": ["/fonts/owlcarp-serif-ed3c0f2372c759.woff2", "/fonts/owlcarp-serif-7c97fb75613717.woff2", "/fonts/owlcarp-sans-b12cf87fad10ae.woff2"], "critical": ["/fonts/owlcarp-serif-ed3c0f2372c759.woff2", "/fonts/owlcarp-sans-b12cf87fad10ae.woff2"]}, "/privacy/": {"needed": ["/fonts/owlcarp-sans-b12cf87fad10ae.woff2", "/fonts/owlcarp-sans-93c7e3575859e9.woff2", "/fonts/owlcarp-sans-346e6ae6988304.woff2", "/fonts/owlcarp-sans-f872baf4be7ba9.woff2"], "critical": ["/fonts/owlcarp-sans-b12cf87fad10ae.woff2", "/fonts/owlcarp-sans-93c7e3575859e9.woff2"]}, "/sitemap/": {"needed": ["/fonts/owlcarp-sans-b12cf87fad10ae.woff2", "/fonts/owlcarp-sans-93c7e3575859e9.woff2", "/fonts/owlcarp-sans-346e6ae6988304.woff2", "/fonts/owlcarp-sans-f872baf4be7ba9.woff2"], "critical": []}, "/understory/": {"needed": ["/fonts/owlcarp-serif-ed3c0f2372c759.woff2", "/fonts/owlcarp-serif-7c97fb75613717.woff2", "/fonts/owlcarp-serif-608abbac94726e.woff2", "/fonts/owlcarp-serif-26471a4ed13efe.woff2", "/fonts/owlcarp-serif-1ecd748705865a.woff2", "/fonts/owlcarp-serif-3a2b61910afdac.woff2", "/fonts/owlcarp-sans-b12cf87fad10ae.woff2", "/fonts/owlcarp-sans-af989957de33e2.woff2", "/fonts/owlcarp-sans-93c7e3575859e9.woff2", "/fonts/owlcarp-sans-346e6ae6988304.woff2", "/fonts/owlcarp-sans-f872baf4be7ba9.woff2", "/fonts/owlcarp-sans-1d7e6098c12c94.woff2"], "critical": ["/fonts/owlcarp-serif-ed3c0f2372c759.woff2", "/fonts/owlcarp-serif-7c97fb75613717.woff2", "/fonts/owlcarp-serif-608abbac94726e.woff2", "/fonts/owlcarp-sans-b12cf87fad10ae.woff2", "/fonts/owlcarp-sans-93c7e3575859e9.woff2"]}}, "files": ["/fonts/owlcarp-serif-ed3c0f2372c759.woff2", "/fonts/owlcarp-serif-7c97fb75613717.woff2", "/fonts/owlcarp-serif-608abbac94726e.woff2", "/fonts/owlcarp-serif-26471a4ed13efe.woff2", "/fonts/owlcarp-serif-1ecd748705865a.woff2", "/fonts/owlcarp-serif-3a2b61910afdac.woff2", "/fonts/owlcarp-sans-b12cf87fad10ae.woff2", "/fonts/owlcarp-sans-af989957de33e2.woff2", "/fonts/owlcarp-sans-93c7e3575859e9.woff2", "/fonts/owlcarp-sans-346e6ae6988304.woff2", "/fonts/owlcarp-sans-f872baf4be7ba9.woff2", "/fonts/owlcarp-sans-1d7e6098c12c94.woff2"]}</script></head><body><main id="kiosk-scroll"><br/>
+<div class="container">
+<div class="module" id="welcome-module">
+<div class="logo-container">
+<img alt="打印店logo" class="logo" src="/experiences/kiosk/assets/logo.svg"/>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+<div class="welcome-text">
+<h1>欢迎来到小黑店ヾ(≧▽≦*)o</h1>
+<p>- 扫描二维码即可打印~
+                        - 建议即打即取！文件最多保留两天。
+                        - 23:50后的文件将延期至次日7:50打印。
                         - 需要帮助请联系店主</p>
                         - Live2D Model「MO」by 樱井檬@bilibili
                 </div>
-                <div style="margin-left: auto; text-align: center; display: flex; flex-direction: column; align-items: center; position: relative; right: 20px; top: 0px;">
-                    <img data-action="print" src="/experiences/kiosk/assets/qr_code.webp" alt="演示二维码" class="qr-code qr-code-blend" style="width: 150px;">
-                    <p>扫描二维码自助下单</p>
-                </div>
-            </div>
-        </div>
-
-        
-        <div class="module" id="daily-stats-module">
-            <h3>今日打印/工具使用统计</h3>
-            <div class="stats-container">
-                <div class="stats-cards">
-                    <div class="stats-card">
-                        <div class="stats-icon">📄</div>
-                        <div class="stats-content">
-                            <div class="stats-value" id="total-pages">0</div>
-                            <div class="stats-label">总页数</div>
-                        </div>
-                    </div>
-                    <div class="stats-card">
-                        <div class="stats-icon">📁</div>
-                        <div class="stats-content">
-                            <div class="stats-value" id="total-files">0</div>
-                            <div class="stats-label">总文件</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="chart-container">
-                    <div style="text-align: center;">
-                        <h4>近12小时页数统计</h4>
-                    </div>
-                    <div id="hourly-chart"></div>
-                </div>
-                <div class="item-cards">
-                    <div class="item-usage-card" role="button" tabindex="0" data-action="tool" data-tool="订书机" aria-label="订书机">
-                        <div class="item-usage-value" id="stapler-count">0</div>
-                    </div>
-                    <div class="item-usage-card" role="button" tabindex="0" data-action="tool" data-tool="固体胶" aria-label="固体胶">
-                        <div class="item-usage-value" id="glue-count">0</div>
-                    </div>
-                    <div class="item-usage-card" role="button" tabindex="0" data-action="tool" data-tool="推夹器" aria-label="推夹器">
-                        <div class="item-usage-value" id="paper-clip-count">0</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        
-        <div class="module" id="hitokoto-module">
-            <div class="hitokoto-title" id="hitokoto-title">一言</div>
-            <div class="hitokoto-container">
-                <div id="dynamic-hitokoto" class="typing-text" data-action="quote"></div>
-            </div>
-        </div>
-
-        
-        <div class="module" id="printer-status-module">
-            <h3>打印机状态</h3>
-            <button id="printer-repair-button" type="button" data-action="repair" class="printer-repair-button">
-                <img src="/experiences/kiosk/assets/repair.svg" alt="故障排除图标">
-                <span>故障排除</span>
-            </button>
-            <div id="printer-status-container" class="printer-status-container">
-                
-            </div>
-        </div>
-
-        
-        <div class="module" id="active-jobs-module" hidden>
-            <h3>当前活动任务</h3>
-                
-                <table id="active-jobs-table">
-                    <colgroup>
-                        <col class="col-name">
-                        <col class="col-pages">
-                        <col class="col-printer">
-                        <col class="col-status">
-                        <col class="col-time">
-                    </colgroup>
-                    <thead>
-                        <tr>
-                            <th>任务名称</th>
-                            <th>页数</th>
-                            <th>打印机</th>
-                            <th>状态</th>
-                            <th>提交时间</th>
-                        </tr>
-                    </thead>
-                    <tbody id="active-jobs-body">
-                        
-                    </tbody>
-                </table>
-        </div>
-
-        
-        <div class="module" id="history-jobs-module">
-            <h3>历史任务</h3>
-                
-                <table id="history-jobs-table">
-                    <colgroup>
-                        <col class="col-name">
-                        <col class="col-pages">
-                        <col class="col-printer">
-                        <col class="col-status">
-                        <col class="col-time">
-                        <col class="col-time-completed">
-                    </colgroup>
-                    <thead>
-                        <tr>
-                            <th>任务名称</th>
-                            <th>页数</th>
-                            <th>打印机</th>
-                            <th>状态</th>
-                            <th>提交时间</th>
-                            <th>完成时间</th>
-                        </tr>
-                    </thead>
-                    <tbody id="history-jobs-body">
-                        
-                    </tbody>
-                </table>
-        </div>
-    </div>
-
-    </main><div id="toast" class="unified-toast" hidden></div><div id="live2d-vignette" class="live2d-vignette is-hidden" aria-hidden="true"></div><div id="live2d-host" class="live2d-host is-hidden" aria-hidden="true"></div><dialog id="repair-panel" class="repair-side-panel" aria-labelledby="repair-heading"><div class="repair-side-panel-shell"><div class="repair-side-panel-header"><div class="repair-side-panel-heading"><p class="repair-subtitle"></p><h2 id="repair-heading"></h2></div><div class="interaction-close-wrap"><button type="button" class="interaction-close-btn" data-repair="close" aria-label="关闭故障排除"><svg class="interaction-close-ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="interaction-close-ring-bg" cx="22" cy="22" r="18"/><circle class="interaction-close-ring-progress" cx="22" cy="22" r="18"/></svg><span class="interaction-close-x">×</span></button></div></div><div class="repair-side-panel-content"></div></div></dialog><dialog id="kiosk-dialog" class="interaction-panel" aria-labelledby="dialog-title"><div class="interaction-panel-shell"><div class="interaction-panel-header"><div class="interaction-panel-heading"><p id="dialog-subtitle"></p><h2 id="dialog-title"></h2></div><div class="interaction-close-wrap"><button type="button" class="interaction-close-btn" data-action="close" aria-label="关闭互动"><svg class="interaction-close-ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="interaction-close-ring-bg" cx="22" cy="22" r="18"/><circle class="interaction-close-ring-progress" cx="22" cy="22" r="18"/></svg><span class="interaction-close-x">×</span></button></div></div><div class="interaction-panel-content" id="dialog-body"></div></div></dialog><button type="button" id="like-button" class="interaction-like is-hidden" data-action="like" hidden></button><div class="interaction-like-backdrop is-hidden" id="like-backdrop" hidden></div><section class="closed-mode" id="night" hidden><div class="closed-header"><img src="/experiences/kiosk/assets/logo.svg" alt="Logo" class="closed-logo"><p style="color:#ffffffab;font-size:1.2rem;margin-bottom:-10px">非营业时段：</p><h1>23:50 - 07:50</h1><div class="closed-message"><p style="font-size:1.8rem">小黑店打烊啦！ (。 -ω-)zzz</p><p style="color:#a7a7a7ff;font-size:1.2rem;font-weight:300;margin-bottom:0;margin-top:15px">以下任务已默认暂停至 7:50 打印</p><br><p style="color:#49ab6b;font-size:1.2rem;margin-top:10px;font-weight:800">*现在就要？点击"立即打印"即可解除暂停，开始打印~</p></div></div><div class="closed-jobs-container"><div class="closed-jobs-header"><h2>任务列表</h2><button type="button" class="exit-closed-mode-btn" data-action="day">EXIT</button></div><div class="closed-jobs-card"><table class="closed-jobs-table"><thead><tr><th>文件名称</th><th class="col-pages">页数</th><th>打印机</th><th>状态</th><th class="col-time">时间</th><th style="text-align:center">操作</th></tr></thead><tbody><tr><td><div class="job-name"><span class="file-type-tag file-type-pdf">PDF</span><span class="job-name-text">明天的课堂讲义</span></div></td><td>12</td><td>黑白一号</td><td><span class="status-badge closed-status-paused">已暂停</span></td><td><div class="time-container"><span class="time-hour">00:10</span><span class="time-date">2026-10-09</span></div></td><td style="text-align:center"><button type="button" class="print-now-btn" data-action="night-print">立即打印</button></td></tr></tbody></table></div></div></section><button id="scroll-top-button" class="scroll-top-button" type="button" data-action="top" aria-label="返回顶部"><span class="arrow">↑</span><svg class="progress-ring" viewBox="0 0 80 80" aria-hidden="true"><circle class="progress-ring__circle" stroke-width="6" fill="transparent" r="37" cx="40" cy="40"/></svg></button><script src="/experiences/kiosk/chartist.min.js"></script></body></html>
+<div style="margin-left: auto; text-align: center; display: flex; flex-direction: column; align-items: center; position: relative; right: 20px; top: 0px;">
+<img alt="演示二维码" class="qr-code qr-code-blend" data-action="print" decoding="async" sizes="(max-width:800px) calc(100vw - 40px), 960px" src="/images/responsive/experiences/kiosk/assets/qr_code-384-7ee2a91748.webp" srcset="/images/responsive/experiences/kiosk/assets/qr_code-128-ea12c74eaf.webp 128w, /images/responsive/experiences/kiosk/assets/qr_code-192-20aab907ad.webp 192w, /images/responsive/experiences/kiosk/assets/qr_code-256-0a7a9b7e98.webp 256w, /images/responsive/experiences/kiosk/assets/qr_code-320-70a1fac335.webp 320w, /images/responsive/experiences/kiosk/assets/qr_code-384-7ee2a91748.webp 384w" style="width: 150px;"/>
+<p>扫描二维码自助下单</p>
+</div>
+</div>
+</div>
+<div class="module" id="daily-stats-module">
+<h3>今日打印/工具使用统计</h3>
+<div class="stats-container">
+<div class="stats-cards">
+<div class="stats-card">
+<div class="stats-icon">📄</div>
+<div class="stats-content">
+<div class="stats-value" id="total-pages">0</div>
+<div class="stats-label">总页数</div>
+</div>
+</div>
+<div class="stats-card">
+<div class="stats-icon">📁</div>
+<div class="stats-content">
+<div class="stats-value" id="total-files">0</div>
+<div class="stats-label">总文件</div>
+</div>
+</div>
+</div>
+<div class="chart-container">
+<div style="text-align: center;">
+<h4>近12小时页数统计</h4>
+</div>
+<div id="hourly-chart"></div>
+</div>
+<div class="item-cards">
+<div aria-label="订书机" class="item-usage-card" data-action="tool" data-tool="订书机" role="button" tabindex="0">
+<div class="item-usage-value" id="stapler-count">0</div>
+</div>
+<div aria-label="固体胶" class="item-usage-card" data-action="tool" data-tool="固体胶" role="button" tabindex="0">
+<div class="item-usage-value" id="glue-count">0</div>
+</div>
+<div aria-label="推夹器" class="item-usage-card" data-action="tool" data-tool="推夹器" role="button" tabindex="0">
+<div class="item-usage-value" id="paper-clip-count">0</div>
+</div>
+</div>
+</div>
+</div>
+<div class="module" id="hitokoto-module">
+<div class="hitokoto-title" id="hitokoto-title">一言</div>
+<div class="hitokoto-container">
+<div class="typing-text" data-action="quote" id="dynamic-hitokoto"></div>
+</div>
+</div>
+<div class="module" id="printer-status-module">
+<h3>打印机状态</h3>
+<button class="printer-repair-button" data-action="repair" id="printer-repair-button" type="button">
+<img alt="故障排除图标" src="/experiences/kiosk/assets/repair.svg"/>
+<span>故障排除</span>
+</button>
+<div class="printer-status-container" id="printer-status-container">
+</div>
+</div>
+<div class="module" hidden="" id="active-jobs-module">
+<h3>当前活动任务</h3>
+<table id="active-jobs-table">
+<colgroup>
+<col class="col-name"/>
+<col class="col-pages"/>
+<col class="col-printer"/>
+<col class="col-status"/>
+<col class="col-time"/>
+</colgroup>
+<thead>
+<tr>
+<th>任务名称</th>
+<th>页数</th>
+<th>打印机</th>
+<th>状态</th>
+<th>提交时间</th>
+</tr>
+</thead>
+<tbody id="active-jobs-body">
+</tbody>
+</table>
+</div>
+<div class="module" id="history-jobs-module">
+<h3>历史任务</h3>
+<table id="history-jobs-table">
+<colgroup>
+<col class="col-name"/>
+<col class="col-pages"/>
+<col class="col-printer"/>
+<col class="col-status"/>
+<col class="col-time"/>
+<col class="col-time-completed"/>
+</colgroup>
+<thead>
+<tr>
+<th>任务名称</th>
+<th>页数</th>
+<th>打印机</th>
+<th>状态</th>
+<th>提交时间</th>
+<th>完成时间</th>
+</tr>
+</thead>
+<tbody id="history-jobs-body">
+</tbody>
+</table>
+</div>
+</div>
+</main><div class="unified-toast" hidden="" id="toast"></div><div aria-hidden="true" class="live2d-vignette is-hidden" id="live2d-vignette"></div><div aria-hidden="true" class="live2d-host is-hidden" id="live2d-host"></div><dialog aria-labelledby="repair-heading" class="repair-side-panel" id="repair-panel"><div class="repair-side-panel-shell"><div class="repair-side-panel-header"><div class="repair-side-panel-heading"><p class="repair-subtitle"></p><h2 id="repair-heading"></h2></div><div class="interaction-close-wrap"><button aria-label="关闭故障排除" class="interaction-close-btn" data-repair="close" type="button"><svg aria-hidden="true" class="interaction-close-ring" viewbox="0 0 44 44"><circle class="interaction-close-ring-bg" cx="22" cy="22" r="18"></circle><circle class="interaction-close-ring-progress" cx="22" cy="22" r="18"></circle></svg><span class="interaction-close-x">×</span></button></div></div><div class="repair-side-panel-content"></div></div></dialog><dialog aria-labelledby="dialog-title" class="interaction-panel" id="kiosk-dialog"><div class="interaction-panel-shell"><div class="interaction-panel-header"><div class="interaction-panel-heading"><p id="dialog-subtitle"></p><h2 id="dialog-title"></h2></div><div class="interaction-close-wrap"><button aria-label="关闭互动" class="interaction-close-btn" data-action="close" type="button"><svg aria-hidden="true" class="interaction-close-ring" viewbox="0 0 44 44"><circle class="interaction-close-ring-bg" cx="22" cy="22" r="18"></circle><circle class="interaction-close-ring-progress" cx="22" cy="22" r="18"></circle></svg><span class="interaction-close-x">×</span></button></div></div><div class="interaction-panel-content" id="dialog-body"></div></div></dialog><button class="interaction-like is-hidden" data-action="like" hidden="" id="like-button" type="button"></button><div class="interaction-like-backdrop is-hidden" hidden="" id="like-backdrop"></div><section class="closed-mode" hidden="" id="night"><div class="closed-header"><img alt="Logo" class="closed-logo" src="/experiences/kiosk/assets/logo.svg"/><p style="color:#ffffffab;font-size:1.2rem;margin-bottom:-10px">非营业时段：</p><h1>23:50 - 07:50</h1><div class="closed-message"><p style="font-size:1.8rem">小黑店打烊啦！ (。 -ω-)zzz</p><p style="color:#a7a7a7ff;font-size:1.2rem;font-weight:300;margin-bottom:0;margin-top:15px">以下任务已默认暂停至 7:50 打印</p><br/><p style="color:#49ab6b;font-size:1.2rem;margin-top:10px;font-weight:800">*现在就要？点击"立即打印"即可解除暂停，开始打印~</p></div></div><div class="closed-jobs-container"><div class="closed-jobs-header"><h2>任务列表</h2><button class="exit-closed-mode-btn" data-action="day" type="button">EXIT</button></div><div class="closed-jobs-card"><table class="closed-jobs-table"><thead><tr><th>文件名称</th><th class="col-pages">页数</th><th>打印机</th><th>状态</th><th class="col-time">时间</th><th style="text-align:center">操作</th></tr></thead><tbody><tr><td><div class="job-name"><span class="file-type-tag file-type-pdf">PDF</span><span class="job-name-text">明天的课堂讲义</span></div></td><td>12</td><td>黑白一号</td><td><span class="status-badge closed-status-paused">已暂停</span></td><td><div class="time-container"><span class="time-hour">00:10</span><span class="time-date">2026-10-09</span></div></td><td style="text-align:center"><button class="print-now-btn" data-action="night-print" type="button">立即打印</button></td></tr></tbody></table></div></div></section><button aria-label="返回顶部" class="scroll-top-button" data-action="top" id="scroll-top-button" type="button"><span class="arrow">↑</span><svg aria-hidden="true" class="progress-ring" viewbox="0 0 80 80"><circle class="progress-ring__circle" cx="40" cy="40" fill="transparent" r="37" stroke-width="6"></circle></svg></button><script src="/experiences/kiosk/chartist.min.js"></script></body></html>

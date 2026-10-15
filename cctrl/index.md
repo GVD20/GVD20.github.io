@@ -12,13 +12,13 @@ CCtrl
 
 2025.12—2026.夏｜RoboMaster 2026｜机械设计、PCB、嵌入式与机器人控制
 
-[![CCtrl 控制器透明渲染图](https://gvd20.github.io/articles/cctrl/v1-cover.webp)
+[![CCtrl 控制器透明渲染图](https://gvd20.github.io/images/responsive/articles/cctrl/v1-cover-480-74c40391b1.webp)
 
 CCtrl
 
 四连杆与 IMU，描述手在空间中的位置和姿态。
 
-GVD20/CCtrl查看仓库](https://github.com/GVD20/CCtrl)[![CCtrl V2 控制器透明渲染图](https://gvd20.github.io/articles/cctrl/v2-cover.webp)
+GVD20/CCtrl查看仓库](https://github.com/GVD20/CCtrl)[![CCtrl V2 控制器透明渲染图](https://gvd20.github.io/images/responsive/articles/cctrl/v2-cover-480-faa21988d4.webp)
 
 CCtrl V2
 
@@ -34,7 +34,7 @@ CCtrl 就是我在悍匠战队期间为此制作的自定义控制器。第一�
 
 这篇文章想记录的也正是这段过程。第一代为什么选择了更通用的空间输入？它在哪里表现得很好，又为什么在真正的机械臂面前遇到困难？以及，第二代为什么最终选择了一条看起来没有那么“优雅”、却更适合当时比赛的路线。
 
-![CCtrl 第一代的最终 CAD 装配](https://gvd20.github.io/images/responsive/articles/cctrl/02-480.webp)
+![CCtrl 第一代的最终 CAD 装配](https://gvd20.github.io/images/responsive/articles/cctrl/02-480-b0c27c4cfd.webp)
 
 **CCtrl V1：四连杆、旋转轴、末端手柄与底座主机。**
 
@@ -44,7 +44,7 @@ CCtrl 就是我在悍匠战队期间为此制作的自定义控制器。第一�
 
 构型参考了 Minverse 一类空间鼠标的思路。我画过一张有些潦草的机构草图：以四连杆承担平面内的伸展和升降，再增加一个空间转动轴，使末端的手柄能在有限工作范围内定位。四根连杆主要用于形成机构约束，实际决定位置的独立角度只有三个。
 
-![早期四连杆机构草图](https://gvd20.github.io/images/responsive/articles/cctrl/01-480.webp)
+![早期四连杆机构草图](https://gvd20.github.io/images/responsive/articles/cctrl/01-480-2a58262deb.webp)
 
 **最早保存下来的构型草图。旁边标出了末端运动范围和转轴方向。**
 
@@ -52,25 +52,25 @@ CCtrl 就是我在悍匠战队期间为此制作的自定义控制器。第一�
 
 这张早期实物照片是它还在实验桌上联调时的样子：机构与线束还是原型阶段的状态。不过它和后来出现在赛场上的那台设备已经能看出是同一个想法。
 
-![V1 早期控制器的实验桌测试](https://gvd20.github.io/images/responsive/articles/cctrl/03-480.webp)
+![V1 早期控制器的实验桌测试](https://gvd20.github.io/images/responsive/articles/cctrl/03-480-97165c5c99.webp)
 
 **V1 早期实测：连杆机构、临时线束与笔记本上的三维坐标仿真。**
 
 末端手柄并不只有一块电路板：主板之外，我还把滚轮和摇杆分别放在两块副板上。CAD 里这些部件排列得很整齐，外壳与电路的相互制约则要到实际装配时才更明显。
 
-![V1 手柄主板与滚轮、摇杆副板](https://gvd20.github.io/images/responsive/articles/cctrl/07-480.webp)
+![V1 手柄主板与滚轮、摇杆副板](https://gvd20.github.io/images/responsive/articles/cctrl/07-480-986ccc9e19.webp)
 
 **手柄内部装配：主板与滚轮、摇杆副板的位置关系。**
 
 第一代的手柄最初用了全包裹外壳，外形完整，却把三块 PCB、滚轮机构和线束都关在了狭小的内部空间里。
 
-![V1 早期全包裹手柄 CAD](https://gvd20.github.io/images/responsive/articles/cctrl/08-480.webp)
+![V1 早期全包裹手柄 CAD](https://gvd20.github.io/images/responsive/articles/cctrl/08-480-e085ed3c00.webp)
 
 **早期封闭式手柄外壳：顶部滚轮、侧盖与连杆连接处均集成在内。**
 
 真正开始装配时，整理线缆和返工都很不方便，手柄本身也偏重。后来我把壳体改为蜂窝镂空结构，让内部零件可以从侧面接近。这个版本少了一些“消费电子产品”的完整感，实际装配与维护却舒服得多。
 
-![第一代后期镂空手柄](https://gvd20.github.io/images/responsive/articles/cctrl/09-480.webp)
+![第一代后期镂空手柄](https://gvd20.github.io/images/responsive/articles/cctrl/09-480-e3151c9097.webp)
 
 **后期改用镂空外壳，滚轮、手柄 PCB 和线束区域更容易接近。**
 
@@ -80,7 +80,7 @@ CCtrl 就是我在悍匠战队期间为此制作的自定义控制器。第一�
 
 CCtrl V1 的位置测量使用三颗 AS5600 磁编码器。每个转轴附近固定一块自己设计的圆形 PCB，传感器对着随轴转动的径向磁铁；无需机械接触，便能读出一圈 4096 个刻度的绝对角度。理论上每格约为 0.088°，不过控制器最终的空间精度还会受到磁铁偏心、关节间隙和机构装配误差的影响。
 
-![AS5600 编码器节点 PCB 与装配](https://gvd20.github.io/images/responsive/articles/cctrl/04-480.webp)
+![AS5600 编码器节点 PCB 与装配](https://gvd20.github.io/images/responsive/articles/cctrl/04-480-53bd60d560.webp)
 
 **自制编码器节点的 PCB、走线和装配实物。转轴背面布置磁铁，传感器读取角位置。**
 
@@ -97,11 +97,11 @@ z = -r sin(θ₀)
 
 手柄姿态则交给 ICM-20948 惯性测量单元。它能够提供加速度、角速度和磁场数据；实际主路径在 ESP32-S3 上使用 Mahony 四元数滤波，对陀螺仪与加速度计做六轴融合，再输出姿态。磁场数据虽然在链路中保留，当时的实际融合配置没有启用磁力计修正。因此，倾斜方向能够借助重力约束稳定下来，航向仍可能随陀螺仪积分产生漂移。
 
-![手柄节点 PCB 走线与三维渲染](https://gvd20.github.io/images/responsive/articles/cctrl/05-480.webp)
+![手柄节点 PCB 走线与三维渲染](https://gvd20.github.io/images/responsive/articles/cctrl/05-480-5097a66c9c.webp)
 
 **手柄节点：IMU、微控制器、按键与连接器集中在狭长的板形里。**
 
-![手工焊接后的 ICM-20948](https://gvd20.github.io/images/responsive/articles/cctrl/06-480.webp)
+![手工焊接后的 ICM-20948](https://gvd20.github.io/images/responsive/articles/cctrl/06-480-146cf7936c.webp)
 
 **ICM-20948 焊接实物。小封装元件也是第一代硬件制作中比较考验手工的一部分。**
 
@@ -117,7 +117,7 @@ z = -r sin(θ₀)
 
 节点之间只需要四根线：3.3 V、GND、串口数据线以及返回路径。主机发出一个包后，包会逐级经过各个节点，最后沿返回链路回到主控。这是一条由 MCU 主动转发的菊花链，而不是简单把四个器件并在一条 I²C 总线上。
 
-![三编码器与手柄节点的菊花链测试](https://gvd20.github.io/images/responsive/articles/cctrl/10-480.webp)
+![三编码器与手柄节点的菊花链测试](https://gvd20.github.io/images/responsive/articles/cctrl/10-480-7ace760090.webp)
 
 **工作台上的链路测试：三个圆形编码器节点和一块手柄节点，通过四线连接。**
 
@@ -127,7 +127,7 @@ z = -r sin(θ₀)
 
 底座的主控采用 ESP32-S3。我为它设计了包括电源、OLED、机械按键、蜂鸣器、状态灯和 RS232 的 PCB；既能通过 USB 供电，也考虑了比赛使用的 6S 电池供电与串口连接。两个核心上的任务分别处理显示交互和业务链路，使菜单动画不会直接阻塞传感器轮询。
 
-![ESP32-S3 主控 PCB 布局](https://gvd20.github.io/images/responsive/articles/cctrl/11-480.webp)
+![ESP32-S3 主控 PCB 布局](https://gvd20.github.io/images/responsive/articles/cctrl/11-480-828116ead3.webp)
 
 **两代沿用的 ESP32-S3 主板。左侧是 PCB Layout，右侧是三维装配渲染。**
 
@@ -135,13 +135,13 @@ z = -r sin(θ₀)
 
 我也为它做了一个 OLED 菜单。界面基于 WouoUI，磁贴图标用图像生成工具制作后再转为二值图；蜂鸣器甚至可以按音符表播放一段 MIDI 启动旋律。这些东西不会提高机械臂精度，但对一台真正要被人拿起来操作、在赛场上排查状态的设备来说，能看到模式、能听到反馈，比接上串口再猜发生了什么好得多。
 
-[CCtrl V1 主机上电](https://gvd20.github.io/articles/cctrl/12.mp4)
+[CCtrl V1 主机上电](https://gvd20.github.io/articles/cctrl/12-720-vmaf-5f49f5961f.mp4)
 
 播放
 
 **主控上电，OLED 与状态灯亮起，蜂鸣器演奏启动旋律。**
 
-[WouoUI 动画菜单](https://gvd20.github.io/articles/cctrl/18.mp4)
+[WouoUI 动画菜单](https://gvd20.github.io/articles/cctrl/18-720-vmaf-34ebc0d494.mp4)
 
 播放
 
@@ -151,7 +151,7 @@ z = -r sin(θ₀)
 
 第一代最令人开心的阶段，是看到那些独立的模块终于连成了一条链。手握住控制器、移动连杆，电脑上的三维坐标跟着变化；转动手柄，虚拟对象的朝向也能随之改变。早期实验桌上还摆着尚未整理完的线束，屏幕里却已经有了一台能被手直接操纵的空间设备。
 
-[第一代末端位置正解的电脑仿真](https://gvd20.github.io/articles/cctrl/13.mp4?v=bt2390-balanced-v2)
+[第一代末端位置正解的电脑仿真](https://gvd20.github.io/articles/cctrl/13-720-vmaf-50ecaf7a51.mp4?v=bt2390-balanced-v2)
 
 播放
 
@@ -161,7 +161,7 @@ z = -r sin(θ₀)
 
 这样一来，机构即使只有有限的运动范围，也能像鼠标抬起再落下一样分段操作。事实上，CCtrl V1 用来移动虚拟物体已经很自然。我还做过一个简单的抓取演示：把散落的彩色方块移动到屏幕里的篮筐中。它把“人在空间里做什么，电脑里就发生什么”的初衷实现得相当直观。
 
-[第一代移动虚拟方块的演示](https://gvd20.github.io/articles/cctrl/15.mp4)
+[第一代移动虚拟方块的演示](https://gvd20.github.io/articles/cctrl/15-1280-vmaf-25c66f1c92.mp4)
 
 播放
 
@@ -173,7 +173,7 @@ z = -r sin(θ₀)
 
 后者可以把控制写成一个很简洁的关系：末端速度 **v** 经过雅可比伪逆 **J⁺**，得到关节速度 **q̇ ≈ J⁺v**。但当某些构型使雅可比接近奇异时，同样一点末端运动可能对应很大的关节速度。Servo 可以在接近奇异位置时减速或停机；这有助于保证约束，却也会让操作手感到某些方向突然“推不动”。
 
-[V1 经 MoveIt Servo 驱动六轴机械臂模型](https://gvd20.github.io/articles/cctrl/14.mp4)
+[V1 经 MoveIt Servo 驱动六轴机械臂模型](https://gvd20.github.io/articles/cctrl/14-1280-vmaf-bf7125d069.mp4)
 
 播放
 
@@ -183,17 +183,17 @@ z = -r sin(θ₀)
 
 2026 年 6 月，完成粉白配色、镂空手柄和底座固定结构的 CCtrl V1 参加了南部赛区比赛。它确实进入了正式操作间，用于控制工程机械臂夹取能量单元。看着自己从年底开始画的草图真正出现在比赛画面里，当然很有成就感；与此同时，比赛也给了我一个比实验室演示更清楚的判断：作为通用空间输入设备，第一代已经证明了自己的方向；作为当时那台工程机械臂的主要比赛控制器，它还不够顺手。
 
-![CCtrl V1 区域赛前的完成装配](https://gvd20.github.io/images/responsive/articles/cctrl/16-480.webp)
+![CCtrl V1 区域赛前的完成装配](https://gvd20.github.io/images/responsive/articles/cctrl/16-480-71b6c34fff.webp)
 
 **南部赛区出发前一晚的最终装配，粉白配色和桌面固定结构已经完成。**
 
 主控板的安装也采用了比较直接的办法：透明亚克力板配合 3D 打印支架完成固定，侧面为连接接口留出空间。这种装配方式方便观察板上的状态，也方便临时检修。
 
-![V1 主机亚克力板与打印支架](https://gvd20.github.io/images/responsive/articles/cctrl/17-480.webp)
+![V1 主机亚克力板与打印支架](https://gvd20.github.io/images/responsive/articles/cctrl/17-480-a4491e40f3.webp)
 
 **主机安装细节：透明亚克力固定板、打印支架、OLED 与机械按键。**
 
-![CCtrl V1 在南部赛区比赛现场](https://gvd20.github.io/images/responsive/articles/cctrl/19-480.webp)
+![CCtrl V1 在南部赛区比赛现场](https://gvd20.github.io/images/responsive/articles/cctrl/19-480-a9e79a78a3.webp)
 
 **2026 RoboMaster 南部赛区的实际操作画面。图片来源：RoboMaster 2026 赛季挑战赛南部赛区图片直播。**
 
@@ -207,21 +207,21 @@ z = -r sin(θ₀)
 
 外观也换成了橙黑配色，部分连杆使用碳纤维管和碳纤维板来提高比强度。手柄参考了大疆穿越摇杆一类垂直握持设备的布局，上方留给摇杆，手指自然覆盖按键与扳机。这一代的目标更明确了：它首先是一件要被人连续握持、操作的工具，然后才是一台漂亮的桌面机构。
 
-![第二代侧偏连杆和三轴腕部构型](https://gvd20.github.io/images/responsive/articles/cctrl/20-480.webp)
+![第二代侧偏连杆和三轴腕部构型](https://gvd20.github.io/images/responsive/articles/cctrl/20-480-c2cc496a4a.webp)
 
 **CCtrl V2 的六轴构型。可以看到主体连杆偏在一侧，手柄被留在更容易操作的位置。**
 
-![第二代手柄 CAD](https://gvd20.github.io/images/responsive/articles/cctrl/26-480.webp)
+![第二代手柄 CAD](https://gvd20.github.io/images/responsive/articles/cctrl/26-480-ea606269c3.webp)
 
 **V2 的竖向握柄、摇杆区域和末端腕部。**
 
 第一代的重量问题也促使我在第二代尽量少使用主动驱动。V2 的关节主要依赖普通轴承和扭簧实现回中或部分重力补偿，而没有把电机力反馈作为这次交付的必要条件。对于操作手来说，扭簧提供的被动力矩已经能在一些姿态下减轻持握负担；对于开发来说，它没有电机驱动器、控制回路和额外布线要调试。
 
-![同轴扭簧和回中结构](https://gvd20.github.io/images/responsive/articles/cctrl/24-480.webp)
+![同轴扭簧和回中结构](https://gvd20.github.io/images/responsive/articles/cctrl/24-480-a59d696dec.webp)
 
 **同轴扭簧及其受力结构。纯机械的补偿把一部分操作手感问题提前解决在机构里。**
 
-[扭簧回中效果](https://gvd20.github.io/articles/cctrl/25.mp4?v=bt2390-balanced-v2)
+[扭簧回中效果](https://gvd20.github.io/articles/cctrl/25-1280-vmaf-071dfe25f2.mp4?v=bt2390-balanced-v2)
 
 播放
 
@@ -233,11 +233,11 @@ z = -r sin(θ₀)
 
 旋转机构总绕不开线缆。V1 已经让我吃到了线束干涉的苦头，所以在 V2 初期，我认真尝试过自己做 PCB 导电滑环：将 AS5600 编码器和同心导电环合在一块板上，再用另一块带弹片电刷的 PCB 接触这些环形铜箔。理想状态下，转轴负责转动，信号和电源从滑动触点穿过，不再被线缆拧住。
 
-![自制滑环与编码器节点实物](https://gvd20.github.io/images/responsive/articles/cctrl/22-480.webp)
+![自制滑环与编码器节点实物](https://gvd20.github.io/images/responsive/articles/cctrl/22-480-ee6b49dea1.webp)
 
 **编码器与同心导电环一体化的 PCB，以及安装在粉色关节座里的电刷弹片。**
 
-![导电滑环和电刷 PCB Layout](https://gvd20.github.io/images/responsive/articles/cctrl/23-480.webp)
+![导电滑环和电刷 PCB Layout](https://gvd20.github.io/images/responsive/articles/cctrl/23-480-da4c976ec6.webp)
 
 **两块圆形 PCB 的布局：一侧是环形触点，另一侧是电刷及其连接电路。**
 
@@ -247,11 +247,11 @@ z = -r sin(θ₀)
 
 同样的取舍也发生在一些更小的部件上。做手柄扳机时，我不小心弄丢了原本要装的扭簧，索性画了一块带卷曲弹性梁的一体式 3D 打印零件，让弹性变形本身承担回弹。实际按起来效果很好，少了一个需要单独装配的小零件。
 
-![一体打印弹性扳机 CAD](https://gvd20.github.io/images/responsive/articles/cctrl/28-480.webp)
+![一体打印弹性扳机 CAD](https://gvd20.github.io/images/responsive/articles/cctrl/28-480-61ecf29ad3.webp)
 
 **丢失小扭簧后设计的替代件：把弹性结构与扳机部件做成一体。**
 
-[弹性扳机回弹演示](https://gvd20.github.io/articles/cctrl/29.mp4?v=bt2390-balanced-v2)
+[弹性扳机回弹演示](https://gvd20.github.io/articles/cctrl/29-720-0fe2f76b4b.mp4?v=bt2390-balanced-v2)
 
 播放
 
@@ -265,11 +265,11 @@ V2 沿用了 ESP32-S3 主板和四线菊花链的基本思想，采样部分则�
 
 其中的手柄节点还留下了一张焊接时的照片。PCB 平放在小型加热台上，传感器和其他贴片元件正逐渐从设计文件变成实物。
 
-![V2 七块节点板](https://gvd20.github.io/images/responsive/articles/cctrl/30-480.webp)
+![V2 七块节点板](https://gvd20.github.io/images/responsive/articles/cctrl/30-480-745557e621.webp)
 
 **第二代全部七块传感器节点：六块圆形编码器板、一块带摇杆的手柄板。**
 
-![V2 手柄节点 PCB 加热台焊接](https://gvd20.github.io/images/responsive/articles/cctrl/27-480.webp)
+![V2 手柄节点 PCB 加热台焊接](https://gvd20.github.io/images/responsive/articles/cctrl/27-480-2f030c360c.webp)
 
 **V2 手柄节点在小型加热台上焊接的过程。**
 
@@ -303,7 +303,7 @@ V2 沿用了 ESP32-S3 主板和四线菊花链的基本思想，采样部分则�
 
 V2 不再求整臂的末端逆运动学，腕部仍留下了一个值得认真处理的问题。目标机械臂的腕部使用 ZXZ 轴系；我为手柄选择的是更适合握持布局的 XZY 轴系。两种表示可以描述相同的空间姿态，但机械转轴的排列方式不同，因此不能直接把 A4、A5、A6 的读数按顺序发给机器人。
 
-![欧拉角与 Cardan 角轴系示意](https://gvd20.github.io/images/responsive/articles/cctrl/21-480.webp)
+![欧拉角与 Cardan 角轴系示意](https://gvd20.github.io/images/responsive/articles/cctrl/21-480-289fea316b.webp)
 
 **旋转轴序示意，参考 ETH Zürich《Robot Dynamics》课程资料。图中展示了不同欧拉角与 Cardan 角旋转序列的区别。**
 
@@ -326,7 +326,7 @@ R = Rx(-A4) · Rz(A5) · Ry(-A6)
 
 临近全国赛，第二代进入了真正的机械臂联调。此时它已不再像第一代那样向机器人发出抽象的空间位姿，而是提供六轴角度与手柄操作量。控制端的结构更接近操作目标，很多动作因而更容易直观对应；代价是它也更依赖目标机械臂的关节定义，通用性比第一代小得多。
 
-[V2 与真实工程机械臂联调](https://gvd20.github.io/articles/cctrl/31.mp4)
+[V2 与真实工程机械臂联调](https://gvd20.github.io/articles/cctrl/31-1280-vmaf-99a2a89ec3.mp4)
 
 播放
 
@@ -334,11 +334,11 @@ R = Rx(-A4) · Rz(A5) · Ry(-A6)
 
 和第一代一样，V2 的最终装配也赶在比赛出发前一晚完成。橙黑配色、碳纤维连杆、三轴腕部、主板和底座终于组成完整的一台机器。放在工作台上，它比第一代更像一件真正面向特定任务的工具。
 
-![V2 最终装配实物](https://gvd20.github.io/images/responsive/articles/cctrl/32-480.webp)
+![V2 最终装配实物](https://gvd20.github.io/images/responsive/articles/cctrl/32-480-fd5fd8b03f.webp)
 
 **全国赛前的最终装配：橙黑配色、碳纤维构件、被动六轴机构与复用的主控板。**
 
-[V2 比赛前训练操作](https://gvd20.github.io/articles/cctrl/33.mp4)
+[V2 比赛前训练操作](https://gvd20.github.io/articles/cctrl/33-992-6bfda7dcab.mp4)
 
 播放
 
@@ -346,7 +346,7 @@ R = Rx(-A4) · Rz(A5) · Ry(-A6)
 
 有一个细节很能代表这次迭代。V1 的底座用橡胶吸盘固定，实验室桌面上没什么问题；正式比赛时，操作台铺有鼠标垫，吸盘便失去了作用。V2 我索性换了方案：在底座设计两个矿泉水瓶插槽，使用时插入装满水的瓶子作为配重。
 
-![V2 使用矿泉水瓶配重的底座](https://gvd20.github.io/images/responsive/articles/cctrl/34-480.webp)
+![V2 使用矿泉水瓶配重的底座](https://gvd20.github.io/images/responsive/articles/cctrl/34-480-34bd9e1eb3.webp)
 
 **底座专门预留了两个水瓶位。配重在需要时获得，不必随设备一直携带。**
 

@@ -12,15 +12,15 @@ Part I
 
 2023年10月28日，我购入了第一台二手打印机，型号是爱普生L4168。最初的启动物资只有这一台打印机，外加一台J900的DIY小电脑作为局域网服务器。打印机就放在宿舍床后的一角，只有一张小桌子。
 
-![2023 年秋季，宿舍床后的一角。](https://gvd20.github.io/images/responsive/articles/bk-part-i/001-480.webp)
+![2023 年秋季，宿舍床后的一角。](https://gvd20.github.io/images/responsive/articles/bk-part-i/001-480-f63c6dc79a.webp)
 
 **2023 年秋季，宿舍床后的一角。**
 
-![最初充当局域网服务器的小主机和路由器。](https://gvd20.github.io/images/responsive/articles/bk-part-i/002-480.webp)
+![最初充当局域网服务器的小主机和路由器。](https://gvd20.github.io/images/responsive/articles/bk-part-i/002-480-84f460488e.webp)
 
 **最初充当局域网服务器的小主机和路由器。**
 
-![在宿舍调试第一台打印机](https://gvd20.github.io/images/responsive/articles/bk-part-i/import-3ce2a1c870db-480.webp)
+![在宿舍调试第一台打印机](https://gvd20.github.io/images/responsive/articles/bk-part-i/import-3ce2a1c870db-480-70baea68c3.webp)
 
 **在宿舍调试第一台打印机**
 
@@ -28,7 +28,7 @@ Part I
 
 随后我做了一个标识视觉设计，这个标识沿用了三年。
 
-![“小黑店”的标识及其 Mockup。](https://gvd20.github.io/images/responsive/articles/bk-part-i/003-480.webp)
+![“小黑店”的标识及其 Mockup。](https://gvd20.github.io/images/responsive/articles/bk-part-i/003-480-e2c1862916.webp)
 
 **“小黑店”的标识及其 Mockup。**
 
@@ -40,11 +40,11 @@ Part I
 
 我很认真地将宣传和用户体验作为一个重要的发力点。我制作了一系列海报，以“宿舍打印全能选手”作为Slogan，同时开展了一个首单免费活动。
 
-![开店首日的业务海报： 这是开店首日用于宣传的海报。除了首日免单活动以外，我几乎没有再做其他的宣传](https://gvd20.github.io/images/responsive/articles/bk-part-i/005-480.webp)
+![开店首日的业务海报： 这是开店首日用于宣传的海报。除了首日免单活动以外，我几乎没有再做其他的宣传](https://gvd20.github.io/images/responsive/articles/bk-part-i/005-480-fa39ee6524.webp)
 
 **开店首日的业务海报：** 这是开店首日用于宣传的海报。除了首日免单活动以外，我几乎没有再做其他的宣传
 
-![首单免费活动海报。](https://gvd20.github.io/images/responsive/articles/bk-part-i/006-480.webp)
+![首单免费活动海报。](https://gvd20.github.io/images/responsive/articles/bk-part-i/006-480-3b2d4ba212.webp)
 
 **首单免费活动海报。**
 
@@ -52,7 +52,7 @@ Part I
 
 第一台 L4168 很快暴露出了一台普通家用打印机面对真实客流时的局限。它的后进纸只能容纳大约 100 张纸，打印速度不快，偶尔还会堵头、卡纸。高峰时如果连续出现大订单，我甚至需要不断过去补纸。于是我做了一块“缺纸怎么办”的标牌，试图把一些本来需要我亲自处理的事情交给用户完成。
 
-![欢迎+缺纸处理标牌： 这是最早的引导标识之一。在整个三年的营业过程中，我很多时候都在用PPT画各种引导标识，后期还将引导引入到Kiosk上，不断试图完善用户体验](https://gvd20.github.io/images/responsive/articles/bk-part-i/007-480.webp)
+![欢迎+缺纸处理标牌： 这是最早的引导标识之一。在整个三年的营业过程中，我很多时候都在用PPT画各种引导标识，后期还将引导引入到Kiosk上，不断试图完善用户体验](https://gvd20.github.io/images/responsive/articles/bk-part-i/007-480-508d9b3fb7.webp)
 
 **欢迎+缺纸处理标牌：** 这是最早的引导标识之一。在整个三年的营业过程中，我很多时候都在用PPT画各种引导标识，后期还将引导引入到Kiosk上，不断试图完善用户体验
 
@@ -62,11 +62,11 @@ Part I
 
 那段时间我刚开始接触 3D 打印，于是又把一台 Bambu Lab A1 mini 搬了进去，并把 3D 打印加入服务列表。
 
-![新增架子和两台打印机，利用宿舍的垂直空间。](https://gvd20.github.io/images/responsive/articles/bk-part-i/008-480.webp)
+![新增架子和两台打印机，利用宿舍的垂直空间。](https://gvd20.github.io/images/responsive/articles/bk-part-i/008-480-e40793122a.webp)
 
 **新增架子和两台打印机，利用宿舍的垂直空间。**
 
-![架子上层的A1 mini： 当时试图把打印店拓展到一个全新的领域——毕竟不会有什么传统文印店突然开始接3D打印。但后来证明这条路暂时还行不通，因为主要打印订单多半是学校的刚需，但3D打印不是。类似的还有照片冲印业务](https://gvd20.github.io/images/responsive/articles/bk-part-i/009-480.webp)
+![架子上层的A1 mini： 当时试图把打印店拓展到一个全新的领域——毕竟不会有什么传统文印店突然开始接3D打印。但后来证明这条路暂时还行不通，因为主要打印订单多半是学校的刚需，但3D打印不是。类似的还有照片冲印业务](https://gvd20.github.io/images/responsive/articles/bk-part-i/009-480-4018b54c47.webp)
 
 **架子上层的A1 mini：** 当时试图把打印店拓展到一个全新的领域——毕竟不会有什么传统文印店突然开始接3D打印。但后来证明这条路暂时还行不通，因为主要打印订单多半是学校的刚需，但3D打印不是。类似的还有照片冲印业务
 
@@ -80,23 +80,23 @@ Part I
 
 规模扩大后，我开始重视那一些难被归类成“技术”的东西，包括标识和引导设计。
 
-![宿舍门口的标识： 这是宿舍门口的照片。左边两个文件筐，按照“今日”和“昨日”分类。因为大多数文件当天就会被取走，逗留过夜的文件以根本没人会来取的僵尸文件居多，实测将今日和昨日分开确实能增加翻找效率。不过这依赖人工每天将文件轮换一次，否则第二天的文件会完全乱掉。](https://gvd20.github.io/images/responsive/articles/bk-part-i/013-480.webp)
+![宿舍门口的标识： 这是宿舍门口的照片。左边两个文件筐，按照“今日”和“昨日”分类。因为大多数文件当天就会被取走，逗留过夜的文件以根本没人会来取的僵尸文件居多，实测将今日和昨日分开确实能增加翻找效率。不过这依赖人工每天将文件轮换一次，否则第二天的文件会完全乱掉。](https://gvd20.github.io/images/responsive/articles/bk-part-i/013-480-da858e17f7.webp)
 
-![第二版的业务海报： 比第一版大幅增加了信息密度](https://gvd20.github.io/images/responsive/articles/bk-part-i/012-480.webp)
+![第二版的业务海报： 比第一版大幅增加了信息密度](https://gvd20.github.io/images/responsive/articles/bk-part-i/012-480-de63ffe269.webp)
 
-![店内部分标识物料： 这些最终会被打印然后剪下来，贴在不同的角落用于引导标识](https://gvd20.github.io/images/responsive/articles/bk-part-i/010-480.webp)
+![店内部分标识物料： 这些最终会被打印然后剪下来，贴在不同的角落用于引导标识](https://gvd20.github.io/images/responsive/articles/bk-part-i/010-480-310fe2c5a0.webp)
 
-![其他引导标识](https://gvd20.github.io/images/responsive/articles/bk-part-i/import-dc1e70f385a9-480.webp)
+![其他引导标识](https://gvd20.github.io/images/responsive/articles/bk-part-i/import-dc1e70f385a9-480-e9079e5b33.webp)
 
 **宿舍门口的标识：** 这是宿舍门口的照片。左边两个文件筐，按照“今日”和“昨日”分类。因为大多数文件当天就会被取走，逗留过夜的文件以根本没人会来取的僵尸文件居多，实测将今日和昨日分开确实能增加翻找效率。不过这依赖人工每天将文件轮换一次，否则第二天的文件会完全乱掉。
 
 门口贴着一张信息密度很高的业务海报，用户走过来就能看到价格、服务类型和入口。下面放两个文件筐，一个写“今日”，另一个写“昨日”。原因也很简单：大部分文件当天就会被拿走，第二天还没拿的，很大一部分会逐渐变成无人领取的“僵尸文件”。把两天分开以后，当天取件的人不需要在一大堆旧资料里翻找。
 
-![公众号里的图文打印引导： 文件打印。](https://gvd20.github.io/images/responsive/articles/bk-part-i/guide-v1-1-480.webp)
+![公众号里的图文打印引导： 文件打印。](https://gvd20.github.io/images/responsive/articles/bk-part-i/guide-v1-1-480-b45437581f.webp)
 
-![公众号里的图文打印引导： 照片与复印。](https://gvd20.github.io/images/responsive/articles/bk-part-i/guide-v1-2-480.webp)
+![公众号里的图文打印引导： 照片与复印。](https://gvd20.github.io/images/responsive/articles/bk-part-i/guide-v1-2-480-a5f5560488.webp)
 
-![公众号里的图文打印引导： 常见问题。](https://gvd20.github.io/images/responsive/articles/bk-part-i/guide-v1-3-480.webp)
+![公众号里的图文打印引导： 常见问题。](https://gvd20.github.io/images/responsive/articles/bk-part-i/guide-v1-3-480-9272bf6abf.webp)
 
 滑动翻页
 
@@ -110,13 +110,13 @@ Part I
 
 于是当时找到了一个第三方的微信框架，用Python搭建了一套微信机器人。用户把文件直接转发给机器人，服务器调用 LibreOffice CLI 将文件转换成 PDF，可以返回预览，然后完成付款和打印。后台还需要管理历史文件、多用户和订单状态，因此这个项目也成了我第一次在真实应用中使用 SQLite 的经历。
 
-![Print Bot 的聊天交互界面。](https://gvd20.github.io/images/responsive/articles/bk-part-i/014-480.webp)
+![Print Bot 的聊天交互界面。](https://gvd20.github.io/images/responsive/articles/bk-part-i/014-480-2288bef4fe.webp)
 
 **Print Bot 的聊天交互界面。**
 
 我一并还制作了引导图，引导新用户使用Print Bot。
 
-![微信打印机器人的使用引导。](https://gvd20.github.io/images/responsive/articles/bk-part-i/015-480.webp)
+![微信打印机器人的使用引导。](https://gvd20.github.io/images/responsive/articles/bk-part-i/015-480-f3967167d3.webp)
 
 ↑↓
 
@@ -134,11 +134,11 @@ Part I
 
 2025年5月，使用了近一年的两台打印机在打印10万余页纸张后，出现了不同程度的质量问题。我觉得是时候第二次更新机器了。
 
-![新更换的两台打印机，接近完整形态的打印区域。](https://gvd20.github.io/images/responsive/articles/bk-part-i/019-480.webp)
+![新更换的两台打印机，接近完整形态的打印区域。](https://gvd20.github.io/images/responsive/articles/bk-part-i/019-480-cbbb3a6efd.webp)
 
 **新更换的两台打印机，接近完整形态的打印区域。**
 
-![桌面角落充当服务器的 mini 主机。](https://gvd20.github.io/images/responsive/articles/bk-part-i/018-480.webp)
+![桌面角落充当服务器的 mini 主机。](https://gvd20.github.io/images/responsive/articles/bk-part-i/018-480-8f22fcc05f.webp)
 
 **桌面角落充当服务器的 mini 主机。**
 
@@ -150,25 +150,25 @@ Part I
 
 我还顺便更换了后台的服务器，从J1900换成了Intel N100，这是一个较新的入门级PC平台，功耗低，架构现代，性能比之前强很多，完全能应付后来的Kiosk界面和更加繁重的打印任务。
 
-![最初的打印区域。](https://gvd20.github.io/images/responsive/articles/bk-studio/first-corner-480.webp)
+![最初的打印区域。](https://gvd20.github.io/images/responsive/articles/bk-studio/first-corner-480-a77b3ad1e8.webp)
 
 2023 秋季
 
 **最初的打印区域。**
 
-![利用垂直空间。](https://gvd20.github.io/images/responsive/articles/bk-studio/shelf-480.webp)
+![利用垂直空间。](https://gvd20.github.io/images/responsive/articles/bk-studio/shelf-480-4c9c3bc58b.webp)
 
 2024 夏季
 
 **利用垂直空间。**
 
-![更多设备进入货架。](https://gvd20.github.io/images/responsive/articles/bk-studio/expanded-480.webp)
+![更多设备进入货架。](https://gvd20.github.io/images/responsive/articles/bk-studio/expanded-480-fa51469d67.webp)
 
 2024 年秋季
 
 **更多设备进入货架。**
 
-![更新为商用和企业级机器。](https://gvd20.github.io/images/responsive/articles/bk-studio/complete-480.webp)
+![更新为商用和企业级机器。](https://gvd20.github.io/images/responsive/articles/bk-studio/complete-480-292f4fc398.webp)
 
 2025 年秋季
 
@@ -178,13 +178,13 @@ Part I
 
 随即我也更新了第二版的公众号打印指引，现在信息更丰富了：
 
-![新版公众号打印指引： 服务与价格。](https://gvd20.github.io/images/responsive/articles/bk-part-i/guide-v2-1-480.webp)
+![新版公众号打印指引： 服务与价格。](https://gvd20.github.io/images/responsive/articles/bk-part-i/guide-v2-1-480-769a154cf8.webp)
 
-![新版公众号打印指引： 文件打印。](https://gvd20.github.io/images/responsive/articles/bk-part-i/guide-v2-2-480.webp)
+![新版公众号打印指引： 文件打印。](https://gvd20.github.io/images/responsive/articles/bk-part-i/guide-v2-2-480-313e5f99a7.webp)
 
-![新版公众号打印指引： 照片与复印。](https://gvd20.github.io/images/responsive/articles/bk-part-i/guide-v2-3-480.webp)
+![新版公众号打印指引： 照片与复印。](https://gvd20.github.io/images/responsive/articles/bk-part-i/guide-v2-3-480-89c08d89aa.webp)
 
-![新版公众号打印指引： 常见问题。](https://gvd20.github.io/images/responsive/articles/bk-part-i/guide-v2-4-480.webp)
+![新版公众号打印指引： 常见问题。](https://gvd20.github.io/images/responsive/articles/bk-part-i/guide-v2-4-480-88e7ba2727.webp)
 
 滑动翻页
 
@@ -194,13 +194,13 @@ Part I
 
 在更换打印机后的打印区域图片中。两台打印机被分层放置在了架子的两层，确保任何一个出纸口都可达。你可能注意到了左侧黑色的平板电脑，那是作为Kiosk使用的一台iPad mini3，它完全为无人值守时的用户体验而设计。
 
-![Kiosk 默认界面](https://gvd20.github.io/images/responsive/articles/bk-part-i/import-201ac2568d8f-480.webp)
+![Kiosk 默认界面](https://gvd20.github.io/images/responsive/articles/bk-part-i/import-201ac2568d8f-480-ce732e725d.webp)
 
-![物品检测的用户交互。](https://gvd20.github.io/images/responsive/articles/bk-part-i/detection-480.webp)
+![物品检测的用户交互。](https://gvd20.github.io/images/responsive/articles/bk-part-i/detection-480-b785048363.webp)
 
-![后台服务器的系统界面截图。](https://gvd20.github.io/images/responsive/articles/bk-part-i/031-480.webp)
+![后台服务器的系统界面截图。](https://gvd20.github.io/images/responsive/articles/bk-part-i/031-480-bd80f85ed6.webp)
 
-![互动 UX： 评分弹窗](https://gvd20.github.io/images/responsive/articles/bk-part-i/import-659e22783f06-480.webp)
+![互动 UX： 评分弹窗](https://gvd20.github.io/images/responsive/articles/bk-part-i/import-659e22783f06-480-99374ce4b1.webp)
 
 **Kiosk 默认界面**
 
@@ -210,11 +210,11 @@ Part I
 
 再有趣的互动也许都比不过一颗薄荷糖。产生这个想法是我在校园开放日的时候发现每个义工亭都有一小盘糖果，于是我意识到这些味觉上的小心思是提升用户满意度很妙 的一招。我利用打印区域旁边的一根柱子建模并3D打印了一个糖果盒：
 
-![利用打印区域旁的柱子，建模设计糖果盒。](https://gvd20.github.io/images/responsive/articles/bk-part-i/039-480.webp)
+![利用打印区域旁的柱子，建模设计糖果盒。](https://gvd20.github.io/images/responsive/articles/bk-part-i/039-480-4eece572df.webp)
 
 **利用打印区域旁的柱子，建模设计糖果盒。**
 
-![打印等待区域的3D打印糖果盒。](https://gvd20.github.io/images/responsive/articles/bk-part-i/040-480.webp)
+![打印等待区域的3D打印糖果盒。](https://gvd20.github.io/images/responsive/articles/bk-part-i/040-480-8604619d10.webp)
 
 **打印等待区域的3D打印糖果盒。**
 

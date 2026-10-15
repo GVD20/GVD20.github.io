@@ -15,15 +15,15 @@
 
 2023 年秋天，我购入了第一台二手打印机，型号是爱普生 L4168。还有一张小桌子、一台 J1900 主机作为服务器，设计了一套Logo，在宿舍角落开始运营这家名为 **BK_STATION 小黑店** 的打印铺。这还远算不上是一个项目，我最初只想在宿舍里做一点自己的小生意。
 
-![2023 年 10 月，第一台打印机。](https://gvd20.github.io/images/responsive/articles/bk-studio/first-printer-480.webp)
+![2023 年 10 月，第一台打印机。](https://gvd20.github.io/images/responsive/articles/bk-studio/first-printer-480-0627896cd6.webp)
 
-![后来，iPad Kiosk 和逐渐丰富起来的打印区域](https://gvd20.github.io/images/responsive/articles/bk-studio/printing-area-480.webp)
+![后来，iPad Kiosk 和逐渐丰富起来的打印区域](https://gvd20.github.io/images/responsive/articles/bk-studio/printing-area-480-5062db5e16.webp)
 
-![通过 April Tag 识别工具是否放置稳妥](https://gvd20.github.io/images/responsive/articles/bk-studio/april-tools-480.webp)
+![通过 April Tag 识别工具是否放置稳妥](https://gvd20.github.io/images/responsive/articles/bk-studio/april-tools-480-a656b8a4a1.webp)
 
-![“小黑店” 的品牌 Logo 和 Mockup 设计](https://gvd20.github.io/images/responsive/articles/bk-studio/brand-mockup-480.webp)
+![“小黑店” 的品牌 Logo 和 Mockup 设计](https://gvd20.github.io/images/responsive/articles/bk-studio/brand-mockup-480-a4fb894a09.webp)
 
-![Kiosk 上的交互 UX](https://gvd20.github.io/images/responsive/articles/bk-studio/kiosk-ux-480.webp)
+![Kiosk 上的交互 UX](https://gvd20.github.io/images/responsive/articles/bk-studio/kiosk-ux-480-5a97190ac4.webp)
 
 **2023 年 10 月，第一台打印机。**
 
@@ -33,19 +33,19 @@
 
 再后来，我给打印店设计了一整套自动化后台程序。那台 iPad 知道哪台打印机正在工作、哪一份文件正在排队、哪台机器缺纸了，甚至有人把订书机拿走了会提醒他放回。空气净化器会跟随激光机打印负载改变工作模式；夜里暂停的打印任务可以由现场用户重新放行；屏幕上的 Live 2D 角色会随着通知和弹窗改变视线；打印完成以后，它还会主动询问用户有没有遇到问题。
 
-![最初的打印角落](https://gvd20.github.io/images/responsive/articles/bk-studio/first-corner-480.webp)
+![最初的打印角落](https://gvd20.github.io/images/responsive/articles/bk-studio/first-corner-480-a77b3ad1e8.webp)
 
 2023秋季
 
-![新增货架后的打印区域](https://gvd20.github.io/images/responsive/articles/bk-studio/shelf-480.webp)
+![新增货架后的打印区域](https://gvd20.github.io/images/responsive/articles/bk-studio/shelf-480-4c9c3bc58b.webp)
 
 2024夏季
 
-![添置了打印机和 3D 打印机](https://gvd20.github.io/images/responsive/articles/bk-studio/expanded-480.webp)
+![添置了打印机和 3D 打印机](https://gvd20.github.io/images/responsive/articles/bk-studio/expanded-480-fa51469d67.webp)
 
 2024年秋季
 
-![逐渐完整的打印区域](https://gvd20.github.io/images/responsive/articles/bk-studio/complete-480.webp)
+![逐渐完整的打印区域](https://gvd20.github.io/images/responsive/articles/bk-studio/complete-480-292f4fc398.webp)
 
 2025年秋季
 
@@ -59,17 +59,17 @@
 
 与此同时，我还在做另一个全新的尝试：让打印回到它最自然的交互方式——聊天。
 
-![BK_Studio 的 UI 方案： 主页为单页设计，刻意只提供对话入口。](https://gvd20.github.io/images/responsive/articles/bk-studio/studio-home-375.webp)
+![BK_Studio 的 UI 方案： 主页为单页设计，刻意只提供对话入口。](https://gvd20.github.io/images/responsive/articles/bk-studio/studio-home-375-083f76dae5.webp)
 
-![BK_Studio 的 UI 方案： 上滑展开的订单列表。](https://gvd20.github.io/images/responsive/articles/bk-studio/studio-orders-375.webp)
+![BK_Studio 的 UI 方案： 上滑展开的订单列表。](https://gvd20.github.io/images/responsive/articles/bk-studio/studio-orders-375-249d58b5e5.webp)
 
-![BK_Studio 的 UI 方案： 文件上传和输入。](https://gvd20.github.io/images/responsive/articles/bk-studio/studio-upload-375.webp)
+![BK_Studio 的 UI 方案： 文件上传和输入。](https://gvd20.github.io/images/responsive/articles/bk-studio/studio-upload-375-cc626946f1.webp)
 
-![BK_Studio 的 UI 方案： 文件修改、下单、格式控制都在对话中进行。](https://gvd20.github.io/images/responsive/articles/bk-studio/studio-dialogue-1-375.webp)
+![BK_Studio 的 UI 方案： 文件修改、下单、格式控制都在对话中进行。](https://gvd20.github.io/images/responsive/articles/bk-studio/studio-dialogue-1-375-ee9123c9f8.webp)
 
-![BK_Studio 的 UI 方案： 文件修改、下单、格式控制都在对话中进行。](https://gvd20.github.io/images/responsive/articles/bk-studio/studio-dialogue-2-375.webp)
+![BK_Studio 的 UI 方案： 文件修改、下单、格式控制都在对话中进行。](https://gvd20.github.io/images/responsive/articles/bk-studio/studio-dialogue-2-375-06541e7186.webp)
 
-![BK_Studio 的 UI 方案： 订单详情页。](https://gvd20.github.io/images/responsive/articles/bk-studio/studio-detail-375.webp)
+![BK_Studio 的 UI 方案： 订单详情页。](https://gvd20.github.io/images/responsive/articles/bk-studio/studio-detail-375-bebe7979b0.webp)
 
 滑动翻页
 

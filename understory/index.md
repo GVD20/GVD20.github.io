@@ -100,7 +100,7 @@ UnderStory 的产品形态并不是先写好一份需求文档，再照着逐条
 
 阅读首先得是一件舒服的事。所以最基础的仍然是一个正常的 EPUB 阅读器：左边是按卷和章节展开的目录，像文件管理器一样方便定位；中间是一整块可以连续滚动的正文；右边留给辅助信息；底部则有阅读进度。字体、字号、行距、插图与部分高级排版都能按需调整。我希望一个人即使完全不使用 AI，也能够坐下来好好读完一本书。
 
-![UnderStory 的阅读页面](https://gvd20.github.io/images/responsive/articles/understory/01-480.webp)
+![UnderStory 的阅读页面](https://gvd20.github.io/images/responsive/articles/understory/01-480-8623fd733c.webp)
 
 **阅读板块。以《猫的地球仪》为例，正文居中，卷章目录和阅读辅助侧栏分居两侧。**
 
@@ -110,7 +110,7 @@ UnderStory 的产品形态并不是先写好一份需求文档，再照着逐条
 
 我沿用了人们熟悉的 Wiki 阅读方式：左侧的大纲，右侧的词条内容；页面上有信息表、结构化正文、相关词条、作品导航，以及能够跳回原文的引用。不过底层并没有嵌入 MediaWiki 之类完整的维基系统。它们为社区协作和内容编辑准备了庞大的功能，而我更需要一个能承载 AI 生成结构、供读者浏览的轻量空间。于是索性自己实现了一套“看起来、用起来都像 Wiki”的界面。
 
-![UnderStory 的 Wiki 主页](https://gvd20.github.io/images/responsive/articles/understory/02-480.webp)
+![UnderStory 的 Wiki 主页](https://gvd20.github.io/images/responsive/articles/understory/02-480-bd8b433877.webp)
 
 **《猫的地球仪》的作品 Wiki 主页。即使没有明确要查的内容，也可以从这里开始探索。**
 
@@ -118,7 +118,7 @@ UnderStory 的产品形态并不是先写好一份需求文档，再照着逐条
 
 第三个板块是对话。如果我已经知道自己想问什么，聊天当然最直接：Wiki 中没有解释清楚的关系、某段情节的疑问，都能拿来问。只不过这里的对话并非独立悬浮在阅读器之外的助手。它可以调用原文引用、Wiki 词条卡片和跳转链接，也能请求创建专题、补充词条，甚至直接修改阅读器设置。
 
-![UnderStory 的独立对话板块](https://gvd20.github.io/images/responsive/articles/understory/03-480.webp)
+![UnderStory 的独立对话板块](https://gvd20.github.io/images/responsive/articles/understory/03-480-6b077b129f.webp)
 
 **对话板块。它既用于了解作品，也承担一部分阅读器操作入口的职责。**
 
@@ -126,11 +126,11 @@ UnderStory 的产品形态并不是先写好一份需求文档，再照着逐条
 
 等待过程也做了一些处理。Agent 调查问题、调用工具时，哪怕模型已经很快，读者仍可能等上数十秒。现在它会先给出一条简短的即时回应，再逐步显示工具调用和计时，让人知道这段等待正在发生什么。回答中还可以按需出现 Wiki 卡片、章节跳转、原文引用块、表格或叙事轨迹，点击即可回到相应内容。
 
-![对话的结构化回答组件](https://gvd20.github.io/images/responsive/articles/understory/04-480.webp)
+![对话的结构化回答组件](https://gvd20.github.io/images/responsive/articles/understory/04-480-a098673859.webp)
 
 **一份特意密集展示各种组件的回答示例。平时由模型按需要选择，不必每次都出现全部组件。**
 
-![阅读、对话与 Wiki 的导航入口](https://gvd20.github.io/images/responsive/articles/understory/05-474.webp)
+![阅读、对话与 Wiki 的导航入口](https://gvd20.github.io/images/responsive/articles/understory/05-474-4313602226.webp)
 
 **顶部三个并列入口，对应三种不同的使用方式。**
 
@@ -152,7 +152,7 @@ UnderStory 的产品形态并不是先写好一份需求文档，再照着逐条
 
 不管我是在回忆上一章的情节，还是想问正在读的这一段，都不必离开阅读页面。
 
-![阅读侧栏的四种视图](https://gvd20.github.io/images/responsive/articles/understory/06-480.webp)
+![阅读侧栏的四种视图](https://gvd20.github.io/images/responsive/articles/understory/06-480-f3ff550245.webp)
 
 **从左到右：章节轻览、Wiki、阅读伙伴与搜索。辅助信息始终与正文相邻。**
 
@@ -162,7 +162,7 @@ UnderStory 的产品形态并不是先写好一份需求文档，再照着逐条
 
 我还做了一个更顺手的动作：直接选中文字。比如一段对话中突然提到了早已忘记的角色，我只要选中人名，弹窗便会找出可能对应的词条，点一下就能查看；如果我关心的是这句话本身，还能把选中的段落附给阅读伙伴，让它围绕这段文字回答。
 
-![正文选中与快捷查询](https://gvd20.github.io/images/responsive/articles/understory/07-480.webp)
+![正文选中与快捷查询](https://gvd20.github.io/images/responsive/articles/understory/07-480-4d8c444a7c.webp)
 
 **选中文字后，词条入口和对话操作就出现在附近；右侧同时展示围绕选中内容的讨论。**
 
@@ -170,11 +170,11 @@ UnderStory 的产品形态并不是先写好一份需求文档，再照着逐条
 
 所以弹窗会同时提供准确匹配的词条和相关词条推荐，并在别名匹配时标明它对应的正式名称。文本里可识别的关键词也会相应高亮。支撑这件事的别名信息，并不是为弹窗单独写的一套规则，而是后面作品分析阶段积累的“公共要点表”中的数据。
 
-![精确匹配、别名与相关词条推荐](https://gvd20.github.io/images/responsive/articles/understory/08-480.webp)
+![精确匹配、别名与相关词条推荐](https://gvd20.github.io/images/responsive/articles/understory/08-480-e3192164b7.webp)
 
 **绿色标签对应直接匹配的词条，其他标签提供相关建议；别名匹配可以帮助辨认角色的不同称呼。**
 
-![公共要点表中的别名记录](https://gvd20.github.io/images/responsive/articles/understory/09-480.webp)
+![公共要点表中的别名记录](https://gvd20.github.io/images/responsive/articles/understory/09-480-7de7a9724f.webp)
 
 **内部调试界面。一个对象可以拥有多个别名，也会保留在不同卷中逐步补充的记录；读者通常不会直接看到这张表。**
 
@@ -184,7 +184,7 @@ UnderStory 的产品形态并不是先写好一份需求文档，再照着逐条
 
 它还会和 Wiki 的叙事轨迹联动：当侧栏打开某个词条，进度栏会标出这个对象出现过的章节。于是“这个人物后面还有戏份吗”“某个概念究竟贯穿了多少卷”，不仅能在百科里读到，也能直接在阅读进度上看到分布。
 
-![阅读进度条与 Wiki 定位联动](https://gvd20.github.io/images/responsive/articles/understory/25-480.webp)
+![阅读进度条与 Wiki 定位联动](https://gvd20.github.io/images/responsive/articles/understory/25-480-ce6b6a4335.webp)
 
 **全书与本卷的双尺度进度，以及词条出场章节在进度栏中的标记和跳转。**
 
@@ -200,13 +200,13 @@ UnderStory 的产品形态并不是先写好一份需求文档，再照着逐条
 
 Wiki 中最常见的情况，是某个词条前半部分可以放心阅读，后半部分却涉及人物未来的命运。我参考了萌娘百科等站点常见的遮罩方式，用色块盖住可能剧透的段落。读者知道这里还有内容，但不会在无意间直接看到。
 
-![Wiki 中的剧透遮罩](https://gvd20.github.io/images/responsive/articles/understory/10-480.webp)
+![Wiki 中的剧透遮罩](https://gvd20.github.io/images/responsive/articles/understory/10-480-fbda5d44e6.webp)
 
 **人物词条里的部分内容被绿色遮罩覆盖，未涉及剧透的部分仍能正常阅读。**
 
 这些遮罩不是前端靠关键词猜出来的。词条撰写 Agent（Wiki Composer）生成内容时，会在结构化输出中标记哪些片段属于剧透，并尽可能附上 `unlock_after_chapter_id`，也就是读到哪一章以后，这段信息可以解锁。引用跳转、段落定位和剧透规则都包含在同一份 Wiki 数据结构里。
 
-![Wiki 的剧透与引用结构](https://gvd20.github.io/images/responsive/articles/understory/11-480.webp)
+![Wiki 的剧透与引用结构](https://gvd20.github.io/images/responsive/articles/understory/11-480-8f74998a9c.webp)
 
 **Wiki 生成时的原始结构示例，包含引用位置、剧透片段及章节解锁标记。**
 
@@ -222,13 +222,13 @@ Wiki 中最常见的情况，是某个词条前半部分可以放心阅读，后
 
 对于单段屏蔽内容，也允许读者主动点击临时解锁。
 
-![剧透设置与手动解锁](https://gvd20.github.io/images/responsive/articles/understory/12-480.webp)
+![剧透设置与手动解锁](https://gvd20.github.io/images/responsive/articles/understory/12-480-d00d33d5a5.webp)
 
 **三种屏蔽策略与单段手动解锁。是否知道后续情节，最终仍由读者决定。**
 
 还有一种更棘手的词条：事件的标题或简介本身就是剧透。此时只遮住正文已经来不及了，因此 Wiki Composer 也可以把整个词条标记为剧透。阅读器会锁定整页、模糊页面内容，并遮住目录中的词条名称，尽量避免读者仅仅扫过导航就提前知道了某件事。
 
-![整页词条与目录标题的屏蔽](https://gvd20.github.io/images/responsive/articles/understory/13-480.webp)
+![整页词条与目录标题的屏蔽](https://gvd20.github.io/images/responsive/articles/understory/13-480-4762534519.webp)
 
 **当词条标题本身可能泄露情节时，标题与内容会一并被隐藏。**
 
@@ -236,7 +236,7 @@ Wiki 中最常见的情况，是某个词条前半部分可以放心阅读，后
 
 对话的处理方式则不同。读者可能主动问“这个人最后怎么样了”，也可能只想问“他来自哪里”。同样访问过全文的 Agent，没法仅凭一个问题就断定我是否愿意接受剧透。于是它在调查到相关信息、准备回答前，可以调用一个确认工具，先中断生成，然后询问读者意见。
 
-![对话中的剧透确认](https://gvd20.github.io/images/responsive/articles/understory/14-480.webp)
+![对话中的剧透确认](https://gvd20.github.io/images/responsive/articles/understory/14-480-98dcb9540a.webp)
 
 **Agent 识别到可能严重剧透的问题后，先询问读者，再决定如何继续。**
 
@@ -258,7 +258,7 @@ UnderStory 的大部分设计都围绕 Wiki 和 AI 展开，但我平时真正�
 
 阅读设置因此覆盖了字号、行距、EPUB 样式、插图显示、浅色与深色主题，以及前面提到的剧透策略。设置以模态窗口弹出；因为弹窗会暂时遮住正文，我在窗口里加了一块实时预览，让调整字号或行距时不用反复关闭设置再看效果。
 
-![阅读设置与实时预览](https://gvd20.github.io/images/responsive/articles/understory/15-480.webp)
+![阅读设置与实时预览](https://gvd20.github.io/images/responsive/articles/understory/15-480-ad83405256.webp)
 
 **设置弹窗。修改排版参数时，旁边的预览会同步变化。**
 
@@ -268,7 +268,7 @@ UnderStory 的大部分设计都围绕 Wiki 和 AI 展开，但我平时真正�
 
 我提供了三个显示档位。**关闭**时只保留基础换行，不沿用原书样式；**基础**保留粗体、斜体、下划线、上下标、引用等明确的语义格式；**高级**则进一步应用 EPUB 内嵌与外部 CSS，包括布局、颜色和局部字体大小等。书籍导入时会先解析、清洗样式，阅读时再根据选项决定采用到什么程度。
 
-![EPUB 三种排版策略的比较](https://gvd20.github.io/images/responsive/articles/understory/16-480.webp)
+![EPUB 三种排版策略的比较](https://gvd20.github.io/images/responsive/articles/understory/16-480-b13a64f1f7.webp)
 
 **同一段文本分别以关闭、基础、高级三种方式呈现。保留多少原书样式，可以交给读者选择。**
 
@@ -276,7 +276,7 @@ UnderStory 的大部分设计都围绕 Wiki 和 AI 展开，但我平时真正�
 
 插画则有另一个细节。我的浅色阅读界面偏暖白，普通轻小说的黑白插画却往往带着纯白底色，嵌进页面就会像贴了一块亮白纸。于是我做了“沉浸式插画”选项：将图片以正片叠底的方式与页面融合。对黑白插图来说，这通常能保留线条的可读性，同时减少画面与纸张背景之间突兀的色差。
 
-![沉浸式插画开启前后](https://gvd20.github.io/images/responsive/articles/understory/17-480.webp)
+![沉浸式插画开启前后](https://gvd20.github.io/images/responsive/articles/understory/17-480-6d1b13d22a.webp)
 
 **同一幅插图的两种显示方式。开启后，白底不再与暖白的阅读页面明显分离。**
 
@@ -286,7 +286,7 @@ UnderStory 的大部分设计都围绕 Wiki 和 AI 展开，但我平时真正�
 
 这张卡片上有撤回入口。我觉得这个细节很重要：某些排版习惯是在读了很久以后才慢慢调到合适的，一句自然语言虽然方便，但不该让人忘记原来的数字、又费力找回去。修改应当看得见，也应当退得回。
 
-![通过对话改变阅读设置](https://gvd20.github.io/images/responsive/articles/understory/18-480.webp)
+![通过对话改变阅读设置](https://gvd20.github.io/images/responsive/articles/understory/18-480-519fa16ccf.webp)
 
 **自然语言请求、设置工具调用和可撤回的更新卡片。**
 
@@ -294,7 +294,7 @@ UnderStory 的大部分设计都围绕 Wiki 和 AI 展开，但我平时真正�
 
 至于主题，阅读器提供了浅色与深色两套界面。它们并没有不同的功能，只是让白天、夜晚或不同的阅读偏好都能得到合适的呈现。
 
-![浅色与深色主题](https://gvd20.github.io/images/responsive/articles/understory/19-480.webp)
+![浅色与深色主题](https://gvd20.github.io/images/responsive/articles/understory/19-480-2d1c2d933e.webp)
 
 **同一个阅读布局下的两种主题。**
 
@@ -314,13 +314,13 @@ UnderStory 的大部分设计都围绕 Wiki 和 AI 展开，但我平时真正�
 
 它当然需要一个首页。读者有时只是想随便看看，不妨从一段作品介绍出发，点开一个专题推荐、人物卡片，或者某个分类。Wiki Architect 会为作品规划主页内容与导航，除了 Markdown 正文，还可以使用专题推荐、词条、类目与卷的链接卡片，让探索有可以随手抓住的线索。
 
-![Wiki 主页中的推荐与导航](https://gvd20.github.io/images/responsive/articles/understory/20-480.webp)
+![Wiki 主页中的推荐与导航](https://gvd20.github.io/images/responsive/articles/understory/20-480-df2a9a3359.webp)
 
 **主页并不只是词条索引，还提供简介、专题推荐、词条推荐和类目入口。**
 
 从首页继续向下，则有针对人物、组织、地点、事件等对象的类目页。类目由模型依据作品自行组织，不强求每本书都使用同一套分类。类目页本身不急着详细介绍谁是谁，更多是在某一主题下展示可供继续阅读的词条，像图书馆里某一排书架。
 
-![从分类进入 Wiki 类目页](https://gvd20.github.io/images/responsive/articles/understory/21-480.webp)
+![从分类进入 Wiki 类目页](https://gvd20.github.io/images/responsive/articles/understory/21-480-1e1a02b8c0.webp)
 
 **地点类目示例。它负责把同类词条摆到一起，让读者沿着类别继续浏览。**
 
@@ -328,7 +328,7 @@ UnderStory 的大部分设计都围绕 Wiki 和 AI 展开，但我平时真正�
 
 再往里才是具体词条。词条本身由并行的 Wiki Worker 撰写。根据词条的重要程度，留给 Wiki Worker 的思考和工具调用预算也不同。一份词条页面由标题/简介、Markdown正文、信息表、相关词条表、叙事轨迹和作品导航板块组成。
 
-![Wiki 词条页的各个部分](https://gvd20.github.io/images/responsive/articles/understory/22-480.webp)
+![Wiki 词条页的各个部分](https://gvd20.github.io/images/responsive/articles/understory/22-480-01f2fb4669.webp)
 
 **从正文、引用、信息表，到关联词条、剧透遮罩和导航模块，一篇 Wiki 词条所包含的内容。**
 
@@ -360,7 +360,7 @@ Kindle X-Ray 可以指出一个词或人物在书中哪些地方出现过。我�
 
 由于AI在标注要点表的证据、填写精选表时，都会附加note字段，因此鼠标点击某个节点时，多数不仅显示卷/章位置，也能显示这个节点到底发生了什么。
 
-![叙事轨迹的展开效果](https://gvd20.github.io/images/responsive/articles/understory/23-480.webp)
+![叙事轨迹的展开效果](https://gvd20.github.io/images/responsive/articles/understory/23-480-6879253bb3.webp)
 
 **横跨多卷的出场记录被组织成时间轨迹；展开节点可以查看对应事件。**
 
@@ -368,7 +368,7 @@ Kindle X-Ray 可以指出一个词或人物在书中哪些地方出现过。我�
 
 每篇词条底部还有**作品导航**。它借鉴了主题 Wiki 常见的导航模板，把一组相关人物或概念整理成二维表格。与侧边目录不同，作品导航出现在词条末尾：读完一个角色以后，顺势看到同一阵营、同一组织里的其他角色，或这一类设定的全貌。传统 Wiki 的模板里常有“查·论·编”，这里既没有讨论页，也不打算让用户像编辑站点一样逐页编修，于是就把它留作纯粹的浏览地图。
 
-![词条页末尾的作品导航](https://gvd20.github.io/images/responsive/articles/understory/24-480.webp)
+![词条页末尾的作品导航](https://gvd20.github.io/images/responsive/articles/understory/24-480-ae9707c705.webp)
 
 **用二维关系表把相关角色、组织或概念放在一起。读完当前词条，也就知道下一站可以去哪里。**
 
@@ -384,13 +384,13 @@ Kindle X-Ray 可以指出一个词或人物在书中哪些地方出现过。我�
 
 我最终把原文、检索索引与预先整理的结构化资料放到同一套系统中。Agent 既可以搜索原文、取回带出处的证据，也可以查询已经读过的卷章报告和公共要点。下游的 Wiki 写作不必每次从零开始，对话也不需要只盯着几段检索结果。
 
-![原文、检索、结构化知识与 Agent 的关系](https://gvd20.github.io/images/responsive/articles/understory/26-480.webp)
+![原文、检索、结构化知识与 Agent 的关系](https://gvd20.github.io/images/responsive/articles/understory/26-480-19e94dcc9f.webp)
 
 **原文切片和向量索引负责找证据；章节、卷摘要与公共要点提供已经整理过的知识；Agent 将两边结合起来。**
 
 新作品导入后，需要从“分析作品”入口启动这些预处理工作。最终界面提供**质量分析**和**快速分析**两种模式，区别在于模型可使用的工作预算，方便根据时间和成本选择。
 
-![分析作品的设置窗口](https://gvd20.github.io/images/responsive/articles/understory/27-480.webp)
+![分析作品的设置窗口](https://gvd20.github.io/images/responsive/articles/understory/27-480-804531f831.webp)
 
 **对整部作品发起分析的入口，可以选择处理策略并观察进度。**
 
@@ -410,7 +410,7 @@ V1 因此采用了“章节 Worker → 卷报告 Agent → Wiki Architect → �
 
 - **轻览：**由章总结Worker的摘要字段生成，为进入每一章时提供无剧透的引入。
 
-![第一版作品分析架构](https://gvd20.github.io/images/responsive/articles/understory/28-480.webp)
+![第一版作品分析架构](https://gvd20.github.io/images/responsive/articles/understory/28-480-5e7802ecf9.webp)
 
 **V1：逐章生成报告，再按卷汇总，最后规划并撰写 Wiki。每一层都在重新阅读上游的整理结果。**
 
@@ -422,7 +422,7 @@ V1 因此采用了“章节 Worker → 卷报告 Agent → Wiki Architect → �
 
 因此在 V2，我干脆去掉了独立的逐章 Worker，让**每一卷由一个 Agent 负责完整分析**。这个 Agent 可以直接读整卷、整理章节与卷信息，并在必要时查阅前面几卷已经留下的记忆。原先章报告与卷报告之间那一层昂贵的接力，就这样被合并了。
 
-![第二版作品分析架构](https://gvd20.github.io/images/responsive/articles/understory/29-480.webp)
+![第二版作品分析架构](https://gvd20.github.io/images/responsive/articles/understory/29-480-c3a5109aef.webp)
 
 **V2：以卷 Agent 为中心，借助公共要点表共享跨卷记忆，再把成果交给 Wiki 规划和撰写流程。**
 
@@ -464,7 +464,7 @@ V2 最关键的变化，其实不是少了一个 Worker，而是多出了一张�
 
 例如《转生史莱姆》的真实生成记录里，“希尔”作为人物要点被建立，此后持续接收其他卷的新增内容。每次追加都可以写明本卷变化、原文证据的位置和补充说明。这样查看一个对象时，就能沿着一串结构化的记录回看它的发展。
 
-![公共要点表中的真实记录](https://gvd20.github.io/images/responsive/articles/understory/31-480.webp)
+![公共要点表中的真实记录](https://gvd20.github.io/images/responsive/articles/understory/31-480-cc8dd4d03b.webp)
 
 **《转生史莱姆》的内部要点调试界面。展开一个人物，就能看到按卷追加的记录。**
 
@@ -488,7 +488,7 @@ V2 最关键的变化，其实不是少了一个 Worker，而是多出了一张�
 
 然后才轮到 Wiki Composer，也就是一组并行工作的词条 Worker。每个 Worker 只负责一个页面，获得 Architect 为它准备的词条模板和相关要点。它可以在权限范围内查找原文或已有 Wiki，却不能随意修改别人的词条。这样既能并行加快生成速度，又能让成百上千段独立文字维持相近的页面结构和视觉语言。
 
-![Wiki Architect 与词条 Worker 的分工](https://gvd20.github.io/images/responsive/articles/understory/32-480.webp)
+![Wiki Architect 与词条 Worker 的分工](https://gvd20.github.io/images/responsive/articles/understory/32-480-4901e4b76f.webp)
 
 **Architect 先确定作品结构，再把各词条的资料和模板交给并行写作的 Worker。**
 
@@ -554,11 +554,11 @@ V2 最关键的变化，其实不是少了一个 Worker，而是多出了一张�
 
 我请 Codex 对真实测试中的两类问题做过流程分析。一个问题与人物的进化、能力变化有关，Agent 先查 Wiki 和公共要点，再扩展检索相关情节，回原文核验后提交带证据的答案。另一个问题涉及跨卷人物关系，Agent 则需要先找到事件，再整理不同卷里的信息，最后回到具体章节确认。这些流程图最有意思的地方，不是模型调用了多少工具，而是不同问题让它选择了不同的查证路径。
 
-![对话 Agent 调查人物进化问题](https://gvd20.github.io/images/responsive/articles/understory/33-480.webp)
+![对话 Agent 调查人物进化问题](https://gvd20.github.io/images/responsive/articles/understory/33-480-1d00ccff09.webp)
 
 **一次实际测试：拆解问题、读取结构化资料、核对原文，再提交带引用的回答。**
 
-![对话 Agent 调查跨卷人物关系](https://gvd20.github.io/images/responsive/articles/understory/34-480.webp)
+![对话 Agent 调查跨卷人物关系](https://gvd20.github.io/images/responsive/articles/understory/34-480-543161279e.webp)
 
 **另一种问题触发了不同的调查顺序：跨卷查找、证据归纳与最终回答。**
 
