@@ -1,4 +1,4 @@
-import"./modulepreload-polyfill-B5Qt9EMX.js";import{t as ge}from"./site-runtime-DyfYH9X-.js";import"./favicon-RpiOqubk.js";import"./reading-main-D4jmboh0.js";import"./main-cHTvMQwq.js";import"./load-visible-CdODVvDT.js";import"./mascot-ClNoZ8DK.js";import"./video-source-DPbkJGRC.js";/* empty css                */const re=80,Ae=r=>`${r?"#extension GL_OES_standard_derivatives : enable":""}
+import"./naiwa-0yt6s78k.js";import{t as ge}from"./site-runtime-BUaYSODL.js";import"./favicon-RpiOqubk.js";import"./reading-main-BayXXKSr.js";import"./main-sWDgKBX-.js";import"./mascot-ClNoZ8DK.js";import"./video-source-DPbkJGRC.js";import"./load-visible-CHEz7Nqt.js";/* empty css                */const re=80,Ae=r=>`${r?"#extension GL_OES_standard_derivatives : enable":""}
 precision highp float;
 uniform vec2 viewport;
 uniform vec2 origin, pixelScale, radii;
