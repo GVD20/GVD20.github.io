@@ -1,4 +1,4 @@
-import"./naiwa-0yt6s78k.js";import{t as ge}from"./site-runtime-BUaYSODL.js";import"./favicon-RpiOqubk.js";import"./reading-main-w6FqMtMP.js";import"./main-sWDgKBX-.js";import"./mascot-ClNoZ8DK.js";import"./video-source-DPbkJGRC.js";import"./load-visible-CHEz7Nqt.js";import"./silent-playback-aIsP2L-R.js";const re=80,Ae=r=>`${r?"#extension GL_OES_standard_derivatives : enable":""}
+import"./naiwa-0yt6s78k.js";import{t as ge}from"./site-runtime-BpZ9wpAQ.js";import"./favicon-RpiOqubk.js";import"./reading-main-CEEBu5L5.js";import"./main-DQk9hD4N.js";import"./mascot-ClNoZ8DK.js";import"./video-source-DPbkJGRC.js";import"./load-visible-CHEz7Nqt.js";import"./silent-playback-aIsP2L-R.js";const re=80,Ae=r=>`${r?"#extension GL_OES_standard_derivatives : enable":""}
 precision highp float;
 uniform vec2 viewport;
 uniform vec2 origin, pixelScale, radii;
